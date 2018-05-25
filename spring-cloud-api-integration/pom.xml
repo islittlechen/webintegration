@@ -24,11 +24,11 @@
 </dependencyManagement>
 <dependencies>
     <dependency>
-        <groupId></groupId>
+        <groupId>org.springframework.cloud</groupId>
         <artifactId>spring-cloud-starter-config</artifactId>
     </dependency>
     <dependency>
-        <groupId></groupId>
+        <groupId>org.springframework.cloud</groupId>
         <artifactId>spring-cloud-starter-eureka</artifactId>
     </dependency>
 </dependencies>
