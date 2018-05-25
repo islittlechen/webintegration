@@ -6,7 +6,42 @@
 
     <groupId>org.cxj</groupId>
     <artifactId>web-integration</artifactId>
+    <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
 
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>2.0.2.RELEASE</version>
+    </parent>
+
+    <modules>
+        <module>dubboIntegration</module>
+        <module>springRedisIntegration</module>
+        <module>spring-boot-mybatis-integration</module>
+        <module>spring-cloud-api-integration</module>
+    </modules>
+
+    <properties>
+        <spring.version>5.0.6.RELEASE</spring.version>
+        <junit.version>4.12</junit.version>
+    </properties>
+
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>org.springframework</groupId>
+                <artifactId>spring-test</artifactId>
+                <version>${spring.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>junit</groupId>
+                <artifactId>junit</artifactId>
+                <version>${junit.version}</version>
+                <scope>test</scope>
+            </dependency>
+        </dependencies>
+
+    </dependencyManagement>
 
 </project>
