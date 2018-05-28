@@ -1,0 +1,3 @@
+server:
+  name: api-integration
+  port: 8889
