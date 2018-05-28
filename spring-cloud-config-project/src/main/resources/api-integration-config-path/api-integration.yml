@@ -1,3 +1,2 @@
-server:
-  name: api-integration
-  port: 8889
+api:
+  hello: integrator
