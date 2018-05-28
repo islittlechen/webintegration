@@ -1,6 +1,16 @@
+server:
+  port: 8889
+
 spring:
   application:
     name: api-integration
+  cloud:
+    config:
+      name: api-integration
+      profile: dev
+      uri: http:localhost:8888/
+      label: web-integration-dev
 
-server:
-  port: 8889
+management:
+  security:
+    enabled: false

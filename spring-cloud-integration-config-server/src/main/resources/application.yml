@@ -1,6 +1,7 @@
 server:
   port: 8888
 
+
 spring:
   cloud:
     config:
@@ -8,6 +9,6 @@ spring:
         git:
           uri: https://github.com/islittlechen/webintegration.git
           label: web-integration-dev
-          basedir: src/main/resources/api-integration-config
-          username: islittlechen
+          username: islittlechen@sina.cn
           password: ilc227610
+          search-paths: gitconfig
