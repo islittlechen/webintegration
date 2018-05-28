@@ -6,8 +6,8 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/islittlechen/webintegration
+          uri: https://github.com/islittlechen/webintegration.git
           label: web-integration-dev
+          basedir: src/main/resources/api-integration-config
           username: islittlechen
           password: ilc227610
-          search-paths: spring-cloud-config-project/

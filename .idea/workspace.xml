@@ -1,21 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8a8c27c2-2d2c-4338-9797-e6f3222436b5" name="Default" comment="redis cluster 测试">
-      <change afterPath="$PROJECT_DIR$/spring-cloud-api-integration/src/main/java/org/cxj/integration/api/controller/HelloController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cloud-api-integration/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cloud-api-integration/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cloud-integration-config-server/src/main/java/org/cxj/cloud/integration/main/CloudIntegrationConfigServerApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cloud-integration-config-server/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="8a8c27c2-2d2c-4338-9797-e6f3222436b5" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/gitconfig/api-integration-dev.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dubboIntegration/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dubboIntegration/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-api-integration/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-api-integration/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-api-integration/src/main/java/org/cxj/integration/api/main/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-api-integration/src/main/java/org/cxj/integration/api/main/Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springRedisIntegration/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springRedisIntegration/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-integration-config-server/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-integration-config-server/src/main/resources/application.yml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -61,7 +50,7 @@
         <entry file="file://$PROJECT_DIR$/spring-cloud-api-integration/src/main/resources/bootstrap.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="90">
-              <caret line="6" column="32" lean-forward="true" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
+              <caret line="6" column="32" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -98,20 +87,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application.yml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spring-cloud-integration-config-server/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
+            <state relative-caret-position="120">
+              <caret line="8" column="65" selection-start-line="8" selection-start-column="65" selection-end-line="8" selection-end-column="65" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="api-integration-dev.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-cloud-config-project/api-integration-config/api-integration-dev.properties">
+      <file leaf-file-name="api-integration-dev.properties" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/gitconfig/api-integration-dev.properties">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="24" selection-start-column="24" selection-end-column="24" />
+              <caret column="20" selection-start-column="20" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -195,7 +184,9 @@
         <option value="$PROJECT_DIR$/spring-cloud-api-integration/src/main/java/org/cxj/integration/api/controller/HelloController.java" />
         <option value="$PROJECT_DIR$/spring-cloud-api-integration/src/main/java/org/cxj/integration/api/main/Application.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/api-integration-config/api-integration-dev.properties" />
         <option value="$PROJECT_DIR$/spring-cloud-integration-config-server/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/gitconfig/api-integration-dev.properties" />
       </list>
     </option>
   </component>
@@ -235,58 +226,6 @@
             <path>
               <item name="webintegration" type="b2602c69:ProjectViewProjectNode" />
               <item name="webintegration" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="webintegration" type="b2602c69:ProjectViewProjectNode" />
-              <item name="webintegration" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-cloud-api-integration" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="webintegration" type="b2602c69:ProjectViewProjectNode" />
-              <item name="webintegration" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-cloud-api-integration" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="webintegration" type="b2602c69:ProjectViewProjectNode" />
-              <item name="webintegration" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-cloud-api-integration" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="webintegration" type="b2602c69:ProjectViewProjectNode" />
-              <item name="webintegration" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-cloud-api-integration" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="webintegration" type="b2602c69:ProjectViewProjectNode" />
-              <item name="webintegration" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-cloud-integration-config-server" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="webintegration" type="b2602c69:ProjectViewProjectNode" />
-              <item name="webintegration" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-cloud-integration-config-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="webintegration" type="b2602c69:ProjectViewProjectNode" />
-              <item name="webintegration" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-cloud-integration-config-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="webintegration" type="b2602c69:ProjectViewProjectNode" />
-              <item name="webintegration" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-cloud-integration-config-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="webintegration" type="b2602c69:ProjectViewProjectNode" />
@@ -507,7 +446,7 @@
       <workItem from="1527130118126" duration="2213000" />
       <workItem from="1527213541269" duration="7633000" />
       <workItem from="1527404243517" duration="366000" />
-      <workItem from="1527473498953" duration="9995000" />
+      <workItem from="1527473498953" duration="10732000" />
     </task>
     <task id="LOCAL-00001" summary="dubbo 环境搭建测试">
       <created>1527131855874</created>
@@ -558,7 +497,14 @@
       <option name="project" value="LOCAL" />
       <updated>1527489399629</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="redis cluster 测试">
+      <created>1527490036350</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1527490036350</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -591,10 +537,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31515000" />
+    <option name="totallyTimeSpent" value="32252000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-29" y="23" width="1260" height="689" extended-state="0" />
+    <frame x="65" y="23" width="1260" height="689" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -615,10 +561,10 @@
       <window_info anchor="bottom" id="Java Enterprise" order="13" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Version Control" order="11" weight="0.3284553" />
-      <window_info active="true" anchor="bottom" id="Run" order="4" sideWeight="0.88492066" visible="true" weight="0.40162602" />
+      <window_info anchor="bottom" id="Run" order="4" sideWeight="0.88492066" visible="true" weight="0.40162602" />
       <window_info anchor="bottom" id="Spring" order="0" />
       <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.584127" weight="0.4504065" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.30476192" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30476192" />
       <window_info anchor="right" id="Bean Validation" order="9" />
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="right" id="Theme Preview" order="5" />
@@ -657,23 +603,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/dubboIntegration/src/test/java/org/cxj/di/test/GreetingsServiceTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dubboIntegration/src/main/java/org/cxj/di/interf/GreetingsService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dubboIntegration/src/test/java/org/cxj/di/test/CurrencyTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
@@ -1208,13 +1137,6 @@
         <state relative-caret-position="-104" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-cloud-integration-config-server/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="34" column="65" selection-start-line="34" selection-start-column="65" selection-end-line="34" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/spring-cloud-config-project/src/main/resources/api-integration-config-path/api-integration.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -1284,7 +1206,7 @@
     <entry file="file://$PROJECT_DIR$/spring-cloud-api-integration/src/main/resources/bootstrap.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
-          <caret line="6" column="32" lean-forward="true" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
+          <caret line="6" column="32" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
         </state>
       </provider>
     </entry>
@@ -1295,10 +1217,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/api-integration-config/api-integration-dev.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="23" selection-start-column="23" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-integration-config-server/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="34" column="65" selection-start-line="34" selection-start-column="65" selection-end-line="34" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/spring-cloud-integration-config-server/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
+        <state relative-caret-position="120">
+          <caret line="8" column="65" selection-start-line="8" selection-start-column="65" selection-end-line="8" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gitconfig/api-integration-dev.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="20" selection-start-column="20" selection-end-column="20" />
         </state>
       </provider>
     </entry>
@@ -1381,7 +1324,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited />
+          <last-edited>Maven: antlr:antlr:2.7.7</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
