@@ -4,6 +4,8 @@
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/dubboIntegration" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-boot-mybatis-integration" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-cloud-api-integration" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-cloud-config-project" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springRedisIntegration" charset="UTF-8" />
   </component>
 </project>

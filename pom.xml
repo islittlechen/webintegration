@@ -20,6 +20,7 @@
         <module>springRedisIntegration</module>
         <module>spring-boot-mybatis-integration</module>
         <module>spring-cloud-api-integration</module>
+        <module>spring-cloud-config-project</module>
     </modules>
 
     <properties>
