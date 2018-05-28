@@ -1,0 +1,7 @@
+spring:
+  cloud:
+    config:
+      name: api-integration
+      profile: dev
+      uri: http:localhost:8888/
+      label: web-integration-dev

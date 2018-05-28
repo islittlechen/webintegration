@@ -9,9 +9,12 @@
         <module name="dubboIntegration" />
         <module name="spring-boot-mybatis-integration" />
         <module name="spring-cloud-api-integration" />
-        <module name="spring-cloud-config-project" />
+        <module name="spring-cloud-integration-config-server" />
         <module name="springRedisIntegration" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="spring-cloud-config-project" target="1.7" />
+    </bytecodeTargetLevel>
   </component>
 </project>

@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: api-integration
+
+server:
+  port: 8889

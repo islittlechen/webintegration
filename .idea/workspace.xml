@@ -2,12 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8a8c27c2-2d2c-4338-9797-e6f3222436b5" name="Default" comment="redis cluster 测试">
+      <change afterPath="$PROJECT_DIR$/spring-cloud-api-integration/src/main/java/org/cxj/integration/api/controller/HelloController.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/spring-cloud-api-integration/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cloud-config-project/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cloud-api-integration/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cloud-integration-config-server/src/main/java/org/cxj/cloud/integration/main/CloudIntegrationConfigServerApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cloud-integration-config-server/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubboIntegration/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dubboIntegration/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-api-integration/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-api-integration/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-api-integration/src/main/java/org/cxj/integration/api/main/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-api-integration/src/main/java/org/cxj/integration/api/main/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springRedisIntegration/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springRedisIntegration/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -16,6 +24,7 @@
     <ignored path="$PROJECT_DIR$/spring-boot-mybatis-integration/target/" />
     <ignored path="$PROJECT_DIR$/spring-cloud-api-integration/target/" />
     <ignored path="$PROJECT_DIR$/spring-cloud-config-project/target/" />
+    <ignored path="$PROJECT_DIR$/spring-cloud-integration-config-server/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,19 +35,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-boot-mybatis-integration/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="25" column="21" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spring-cloud-api-integration/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="30" column="42" selection-start-line="30" selection-start-column="42" selection-end-line="30" selection-end-column="42" />
+            <state relative-caret-position="253">
+              <caret line="19" selection-start-line="19" selection-end-line="19" />
             </state>
           </provider>
         </entry>
@@ -46,8 +46,22 @@
       <file leaf-file-name="Application.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spring-cloud-api-integration/src/main/java/org/cxj/integration/api/main/Application.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" selection-start-line="5" selection-end-line="5" />
+            <state relative-caret-position="150">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#202#203#0" expanded="true" />
+                <element signature="e#238#239#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bootstrap.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-cloud-api-integration/src/main/resources/bootstrap.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="32" lean-forward="true" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -56,14 +70,59 @@
         <entry file="file://$PROJECT_DIR$/spring-cloud-api-integration/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="75">
-              <caret line="5" column="53" selection-start-line="5" selection-start-column="53" selection-end-line="5" selection-end-column="53" />
+              <caret line="5" column="12" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="12" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/spring-cloud-config-project/pom.xml">
-          <provider selected="true" editor-type-id="text-editor" />
+      <file leaf-file-name="HelloController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-cloud-api-integration/src/main/java/org/cxj/integration/api/controller/HelloController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#304#305#0" expanded="true" />
+                <element signature="e#330#331#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-cloud-integration-config-server/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="140">
+              <caret line="34" column="65" selection-start-line="34" selection-start-column="65" selection-end-line="34" selection-end-column="65" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.yml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/spring-cloud-integration-config-server/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="api-integration-dev.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-cloud-config-project/api-integration-config/api-integration-dev.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="24" selection-start-column="24" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="28">
+              <caret line="21" column="53" selection-start-line="21" selection-start-column="53" selection-end-line="21" selection-end-column="53" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -82,6 +141,7 @@
       <find>password</find>
       <find>KotlinDetector</find>
       <find>com.smht.devops</find>
+      <find>jacc</find>
     </findStrings>
     <replaceStrings>
       <replace>org.cxj.integration.mybatis</replace>
@@ -103,7 +163,6 @@
       <list>
         <option value="$PROJECT_DIR$/dubboIntegration/src/main/java/org/cxj/di/interf/GreetingsService.java" />
         <option value="$PROJECT_DIR$/dubboIntegration/src/main/java/org/cxj/di/App.java" />
-        <option value="$PROJECT_DIR$/dubboIntegration/pom.xml" />
         <option value="$PROJECT_DIR$/dubboIntegration/src/test/java/org/cxj/di/test/GreetingsServiceTest.java" />
         <option value="$PROJECT_DIR$/dubboIntegration/src/test/java/org/cxj/di/test/CurrencyTest.java" />
         <option value="$PROJECT_DIR$/dubboIntegration/src/main/java/org/cxj/di/impl/GreetingsServiceFailoverImpl.java" />
@@ -111,21 +170,32 @@
         <option value="$PROJECT_DIR$/dubboIntegration/src/main/resources/provider-applicationContext.xml" />
         <option value="$PROJECT_DIR$/dubboIntegration/src/test/resources/consumer-applicationContext.xml" />
         <option value="$PROJECT_DIR$/springRedisIntegration/src/main/resources/spring-redis-cluster-config.xml" />
-        <option value="$PROJECT_DIR$/springRedisIntegration/pom.xml" />
         <option value="$PROJECT_DIR$/springRedisIntegration/src/test/java/redis/test/RedisClusterTest.java" />
         <option value="$PROJECT_DIR$/springRedisIntegration/src/main/resources/spring-redis-sential-config.xml" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/springRedisIntegration/src/main/resources/redis.properties" />
         <option value="$PROJECT_DIR$/spring-boot-mybatis-integration/src/main/resources/mybatis-config.xml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/spring-boot-mybatis-integration/src/main/resources/mapper/UserMapper.xml" />
         <option value="$PROJECT_DIR$/spring-boot-mybatis-integration/src/main/java/org/cxj/integration/mybatis/model/User.java" />
         <option value="$PROJECT_DIR$/spring-boot-mybatis-integration/src/main/java/org/cxj/integration/mybatis/mapper/UserMapper.java" />
         <option value="$PROJECT_DIR$/spring-boot-mybatis-integration/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/spring-boot-mybatis-integration/src/main/java/org/cxj/integration/mybatis/service/UserService.java" />
         <option value="$PROJECT_DIR$/spring-boot-mybatis-integration/pom.xml" />
-        <option value="$PROJECT_DIR$/spring-cloud-api-integration/src/main/java/org/cxj/integration/api/main/Application.java" />
+        <option value="$PROJECT_DIR$/spring-cloud-integration-config-server/src/main/java/org/cxj/cloud/integration/main/CloudIntegrationConfigServerApp.java" />
+        <option value="$PROJECT_DIR$/springRedisIntegration/pom.xml" />
+        <option value="$PROJECT_DIR$/dubboIntegration/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-cloud-integration-config-server/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-cloud-api-integration/src/main/resources/bootstrap.yml" />
         <option value="$PROJECT_DIR$/spring-cloud-api-integration/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/spring-cloud-config-project/src/main/resources/api-integration-config-path/api-integration.yml" />
+        <option value="$PROJECT_DIR$/spring-cloud-config-project/src/main/resources/api-integration-config-path/api-integration-dev.yml" />
+        <option value="$PROJECT_DIR$/spring-cloud-config-project/src/main/resources/api-integration-config-path/api-integration.properties" />
+        <option value="$PROJECT_DIR$/spring-cloud-config-project/src/main/resources/api-integration-config-path/api-integration-dev.properties" />
+        <option value="$PROJECT_DIR$/spring-cloud-api-integration/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-cloud-api-integration/src/main/java/org/cxj/integration/api/controller/HelloController.java" />
+        <option value="$PROJECT_DIR$/spring-cloud-api-integration/src/main/java/org/cxj/integration/api/main/Application.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-cloud-integration-config-server/src/main/resources/application.yml" />
       </list>
     </option>
   </component>
@@ -146,8 +216,8 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="18" />
-    <option name="y" value="63" />
+    <option name="x" value="65" />
+    <option name="y" value="23" />
     <option name="width" value="1260" />
     <option name="height" value="689" />
   </component>
@@ -169,25 +239,25 @@
             <path>
               <item name="webintegration" type="b2602c69:ProjectViewProjectNode" />
               <item name="webintegration" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-cloud-config-project" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-cloud-api-integration" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="webintegration" type="b2602c69:ProjectViewProjectNode" />
               <item name="webintegration" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-cloud-config-project" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-cloud-api-integration" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="webintegration" type="b2602c69:ProjectViewProjectNode" />
               <item name="webintegration" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-cloud-config-project" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-cloud-api-integration" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="webintegration" type="b2602c69:ProjectViewProjectNode" />
               <item name="webintegration" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-cloud-config-project" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-cloud-api-integration" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
@@ -195,9 +265,32 @@
             <path>
               <item name="webintegration" type="b2602c69:ProjectViewProjectNode" />
               <item name="webintegration" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-cloud-config-project" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-cloud-integration-config-server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="webintegration" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webintegration" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-cloud-integration-config-server" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="webintegration" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webintegration" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-cloud-integration-config-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="webintegration" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webintegration" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-cloud-integration-config-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="webintegration" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
@@ -209,11 +302,20 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelOrder2" value="2" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="JAVA" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
@@ -222,11 +324,11 @@
       <recent name="org.cxj.di.impl" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/spring-cloud-config-project/api-integration-config" />
+      <recent name="$PROJECT_DIR$/spring-cloud-integration-config-server/src/main/resources" />
       <recent name="$PROJECT_DIR$/spring-boot-mybatis-integration/src/main/java/org/cxj/integration/mybatis/service" />
       <recent name="$PROJECT_DIR$/spring-boot-mybatis-integration/src/main/java/org/cxj/integration/mybatis/mapper" />
       <recent name="$PROJECT_DIR$/spring-boot-mybatis-integration/src/main/java/org/cxj/integration/mybatis/model" />
-      <recent name="$PROJECT_DIR$/spring-boot-mybatis-integration/src/main/resources/mapper" />
-      <recent name="$PROJECT_DIR$/spring-boot-mybatis-integration/src/main/resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -241,7 +343,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.RedisClusterTest.test">
+  <component name="RunManager" selected="Spring Boot.Application">
     <configuration name="App" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.cxj.di.App" />
       <module name="dubboIntegration" />
@@ -249,6 +351,17 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.cxj.di.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="CloudIntegrationConfigServerApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.cxj.cloud.integration.main.CloudIntegrationConfigServerApp" />
+      <module name="spring-cloud-integration-config-server" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.cxj.cloud.integration.main.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -329,6 +442,16 @@
       </option>
       <patterns />
     </configuration>
+    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="spring-cloud-api-integration" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.cxj.integration.api.main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.cxj.integration.api.main.Application" />
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -356,9 +479,13 @@
       <item itemvalue="JUnit.GreetingsServiceTest.test" />
       <item itemvalue="Application.CurrencyTest" />
       <item itemvalue="JUnit.RedisClusterTest.test" />
+      <item itemvalue="Application.CloudIntegrationConfigServerApp" />
+      <item itemvalue="Spring Boot.Application" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CloudIntegrationConfigServerApp" />
+        <item itemvalue="Spring Boot.Application" />
         <item itemvalue="JUnit.RedisClusterTest.test" />
         <item itemvalue="Application.CurrencyTest" />
         <item itemvalue="JUnit.GreetingsServiceTest.test" />
@@ -380,7 +507,7 @@
       <workItem from="1527130118126" duration="2213000" />
       <workItem from="1527213541269" duration="7633000" />
       <workItem from="1527404243517" duration="366000" />
-      <workItem from="1527473498953" duration="674000" />
+      <workItem from="1527473498953" duration="9995000" />
     </task>
     <task id="LOCAL-00001" summary="dubbo 环境搭建测试">
       <created>1527131855874</created>
@@ -403,7 +530,35 @@
       <option name="project" value="LOCAL" />
       <updated>1527227273793</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="redis cluster 测试">
+      <created>1527487219050</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1527487219050</updated>
+    </task>
+    <task id="LOCAL-00005" summary="redis cluster 测试">
+      <created>1527487847295</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1527487847295</updated>
+    </task>
+    <task id="LOCAL-00006" summary="redis cluster 测试">
+      <created>1527488705400</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1527488705400</updated>
+    </task>
+    <task id="LOCAL-00007" summary="redis cluster 测试">
+      <created>1527489399629</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1527489399629</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -436,13 +591,14 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22194000" />
+    <option name="totallyTimeSpent" value="31515000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="18" y="63" width="1260" height="689" extended-state="0" />
+    <frame x="-29" y="23" width="1260" height="689" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50158733" side_tool="true" visible="true" weight="0.5691057" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.115079366" side_tool="true" weight="0.4113821" />
       <window_info anchor="right" id="Maven Projects" order="7" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info id="Capture Tool" order="3" />
@@ -453,23 +609,23 @@
       <window_info id="UI Designer" order="4" />
       <window_info anchor="bottom" id="Debug" order="5" weight="0.41788617" />
       <window_info anchor="bottom" id="TODO" order="12" />
+      <window_info anchor="bottom" id="Messages" order="1" weight="0.3284553" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info id="Image Layers" order="6" />
-      <window_info anchor="bottom" id="Java Enterprise" order="14" />
+      <window_info anchor="bottom" id="Java Enterprise" order="13" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Version Control" order="11" weight="0.3284553" />
-      <window_info anchor="bottom" id="Run" order="4" weight="0.33658537" />
+      <window_info active="true" anchor="bottom" id="Run" order="4" sideWeight="0.88492066" visible="true" weight="0.40162602" />
       <window_info anchor="bottom" id="Spring" order="0" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.3284553" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30476192" />
-      <window_info anchor="right" id="Bean Validation" order="10" />
-      <window_info id="Web" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.584127" weight="0.4504065" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.30476192" />
+      <window_info anchor="right" id="Bean Validation" order="9" />
+      <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Inspection" order="7" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="6" weight="0.25" />
-      <window_info anchor="bottom" id="Messages" order="1" weight="0.3284553" />
       <window_info anchor="bottom" id="Message" order="2" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="3" />
@@ -483,9 +639,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="dubbo 环境搭建测试" />
-    <MESSAGE value="redis cluster 测试" />
     <MESSAGE value="spring boot mybatis integration 测试" />
-    <option name="LAST_COMMIT_MESSAGE" value="spring boot mybatis integration 测试" />
+    <MESSAGE value="redis cluster 测试" />
+    <option name="LAST_COMMIT_MESSAGE" value="redis cluster 测试" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -501,76 +657,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/dubboIntegration/src/test/resources/consumer-applicationContext.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="59" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dubboIntegration/src/test/java/org/cxj/di/test/GreetingsServiceTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dubboIntegration/src/test/java/org/cxj/di/test/CurrencyTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="29" column="20" lean-forward="true" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dubboIntegration/src/main/java/org/cxj/di/interf/GreetingsService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dubboIntegration/src/main/java/org/cxj/di/impl/GreetingsServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="12" column="54" selection-start-line="12" selection-start-column="54" selection-end-line="12" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dubboIntegration/src/main/java/org/cxj/di/impl/GreetingsServiceFailoverImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="6" column="41" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dubboIntegration/src/main/resources/provider-applicationContext.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dubboIntegration/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webintegration.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.java" />
     <entry file="file://$PROJECT_DIR$/dubboIntegration/src/test/java/org/cxj/di/test/GreetingsServiceTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
@@ -672,13 +758,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dubboIntegration/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-52">
-          <caret line="16" column="40" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dubboIntegration/src/test/resources/consumer-applicationContext.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -701,13 +780,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/springRedisIntegration/src/main/resources/spring-redis-sential-config.xml" />
-    <entry file="file://$PROJECT_DIR$/springRedisIntegration/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="29" column="42" lean-forward="true" selection-start-line="29" selection-start-column="42" selection-end-line="29" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/springRedisIntegration/src/test/java/redis/test/RedisClusterTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="217">
@@ -744,13 +816,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/spring-boot-mybatis-integration/src/main/resources/mapper/UserMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -776,13 +841,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="15" column="44" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-mybatis-integration/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="21" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -814,36 +872,516 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot/2.0.2.RELEASE/spring-boot-2.0.2.RELEASE.jar!/org/springframework/boot/SpringApplication.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="89" column="11" selection-start-line="89" selection-start-column="11" selection-end-line="89" selection-end-column="11" />
+          <folding>
+            <element signature="e#4778#4779#0" expanded="true" />
+            <element signature="e#4836#4837#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://MAVEN/org.cxj:spring-redis-integration:1.0-SNAPSHOT">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>MAVEN</ID>
+          <OriginalElement>org.cxj:spring-redis-integration:1.0-SNAPSHOT</OriginalElement>
+          <nodes>
+            <node x="801.5013626834382" y="583.0">org.cxj:spring-redis-integration:1.0-SNAPSHOT</node>
+            <node x="246.8763626834382" y="504.0">org.springframework.data:spring-data-redis:jar:2.0.7.RELEASE</node>
+            <node x="82.00136268343823" y="415.0">org.springframework.data:spring-data-redis:jar:2.0.7.RELEASE/org.springframework.data:spring-data-keyvalue:jar:1.2.9.RELEASE</node>
+            <node x="93.25" y="336.0">org.springframework.data:spring-data-redis:jar:2.0.7.RELEASE/org.springframework.data:spring-data-keyvalue:jar:1.2.9.RELEASE/org.springframework.data:spring-data-commons:jar:1.13.9.RELEASE</node>
+            <node x="572.2513626834383" y="336.0">org.springframework.data:spring-data-redis:jar:2.0.7.RELEASE/org.springframework.data:spring-data-keyvalue:jar:1.2.9.RELEASE/org.springframework:spring-context:jar:5.0.6.RELEASE</node>
+            <node x="530.7836477987422" y="178.0">org.springframework.data:spring-data-redis:jar:2.0.7.RELEASE/org.springframework.data:spring-data-keyvalue:jar:1.2.9.RELEASE/org.springframework:spring-context:jar:5.0.6.RELEASE/org.springframework:spring-expression:jar:5.0.6.RELEASE</node>
+            <node x="31.12636268343823" y="257.0">org.springframework.data:spring-data-redis:jar:2.0.7.RELEASE/org.springframework.data:spring-data-keyvalue:jar:1.2.9.RELEASE/org.slf4j:jcl-over-slf4j:jar:1.7.25</node>
+            <node x="220.00136268343823" y="257.0">org.springframework.data:spring-data-redis:jar:2.0.7.RELEASE/org.springframework:spring-tx:jar:5.0.6.RELEASE</node>
+            <node x="396.7836477987422" y="178.0">org.springframework.data:spring-data-redis:jar:2.0.7.RELEASE/org.springframework:spring-tx:jar:5.0.6.RELEASE/org.springframework:spring-beans:jar:5.0.6.RELEASE</node>
+            <node x="329.0013626834383" y="257.0">org.springframework.data:spring-data-redis:jar:2.0.7.RELEASE/org.springframework:spring-oxm:jar:5.0.6.RELEASE</node>
+            <node x="710.7836477987423" y="257.0">org.springframework.data:spring-data-redis:jar:2.0.7.RELEASE/org.springframework:spring-aop:jar:5.0.6.RELEASE</node>
+            <node x="575.7513626834383" y="415.0">org.springframework.data:spring-data-redis:jar:2.0.7.RELEASE/org.springframework:spring-context-support:jar:5.0.6.RELEASE</node>
+            <node x="0.0" y="178.0">org.springframework.data:spring-data-redis:jar:2.0.7.RELEASE/org.slf4j:slf4j-api:jar:1.7.25</node>
+            <node x="889.2836477987423" y="178.0">org.springframework:spring-test:jar:5.0.6.RELEASE</node>
+            <node x="555.7938155136268" y="79.0">org.springframework:spring-test:jar:5.0.6.RELEASE/org.springframework:spring-core:jar:5.0.6.RELEASE</node>
+            <node x="562.7938155136268" y="0.0">org.springframework:spring-test:jar:5.0.6.RELEASE/org.springframework:spring-core:jar:5.0.6.RELEASE/org.springframework:spring-jcl:jar:5.0.6.RELEASE</node>
+            <node x="981.7836477987423" y="504.0">junit:junit:jar:4.12</node>
+            <node x="950.2836477987423" y="415.0">junit:junit:jar:4.12/org.hamcrest:hamcrest-core:jar:1.3</node>
+            <node x="832.7836477987423" y="504.0">redis.clients:jedis:jar:2.9.0</node>
+            <node x="796.2836477987423" y="415.0">redis.clients:jedis:jar:2.9.0/org.apache.commons:commons-pool2:jar:2.4.3</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="org.springframework.data:spring-data-redis:jar:2.0.7.RELEASE/org.springframework.data:spring-data-keyvalue:jar:1.2.9.RELEASE" target="org.springframework.data:spring-data-redis:jar:2.0.7.RELEASE/org.springframework:spring-tx:jar:5.0.6.RELEASE">
+              <point x="32.60000000000002" y="-14.5" />
+              <point x="196.10136268343825" y="385.0" />
+              <point x="273.75" y="385.0" />
+              <point x="273.75" y="306.0" />
+              <point x="242.25136268343823" y="306.0" />
+              <point x="-22.25" y="14.5" />
+            </edge>
+            <edge source="org.springframework.data:spring-data-redis:jar:2.0.7.RELEASE/org.springframework:spring-tx:jar:5.0.6.RELEASE" target="org.springframework.data:spring-data-redis:jar:2.0.7.RELEASE/org.springframework:spring-tx:jar:5.0.6.RELEASE/org.springframework:spring-beans:jar:5.0.6.RELEASE">
+              <point x="22.25" y="-14.5" />
+              <point x="286.75136268343823" y="227.0" />
+              <point x="406.2836477987422" y="227.0" />
+              <point x="-47.5" y="14.5" />
+            </edge>
+            <edge source="org.cxj:spring-redis-integration:1.0-SNAPSHOT" target="junit:junit:jar:4.12">
+              <point x="67.5" y="-14.5" />
+              <point x="959.0013626834382" y="558.0" />
+              <point x="1011.2836477987423" y="558.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="org.springframework.data:spring-data-redis:jar:2.0.7.RELEASE/org.springframework.data:spring-data-keyvalue:jar:1.2.9.RELEASE/org.springframework:spring-context:jar:5.0.6.RELEASE" target="org.springframework.data:spring-data-redis:jar:2.0.7.RELEASE/org.springframework:spring-tx:jar:5.0.6.RELEASE/org.springframework:spring-beans:jar:5.0.6.RELEASE">
+              <point x="-46.5" y="-14.5" />
+              <point x="587.7513626834383" y="316.0" />
+              <point x="503.5" y="316.0" />
+              <point x="503.5" y="237.0" />
+              <point x="482.2836477987422" y="237.0" />
+              <point x="28.5" y="14.5" />
+            </edge>
+            <edge source="org.cxj:spring-redis-integration:1.0-SNAPSHOT" target="org.springframework.data:spring-data-redis:jar:2.0.7.RELEASE">
+              <point x="-67.5" y="-14.5" />
+              <point x="824.0013626834382" y="558.0" />
+              <point x="316.8763626834382" y="558.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="org.springframework.data:spring-data-redis:jar:2.0.7.RELEASE/org.springframework.data:spring-data-keyvalue:jar:1.2.9.RELEASE/org.springframework.data:spring-data-commons:jar:1.13.9.RELEASE" target="org.springframework.data:spring-data-redis:jar:2.0.7.RELEASE/org.springframework.data:spring-data-keyvalue:jar:1.2.9.RELEASE/org.slf4j:jcl-over-slf4j:jar:1.7.25">
+              <point x="-63.75" y="-14.5" />
+              <point x="27.5" y="14.5" />
+            </edge>
+            <edge source="org.springframework:spring-test:jar:5.0.6.RELEASE/org.springframework:spring-core:jar:5.0.6.RELEASE" target="org.springframework:spring-test:jar:5.0.6.RELEASE/org.springframework:spring-core:jar:5.0.6.RELEASE/org.springframework:spring-jcl:jar:5.0.6.RELEASE">
+              <point x="0.0" y="-14.5" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="org.springframework.data:spring-data-redis:jar:2.0.7.RELEASE/org.springframework:spring-context-support:jar:5.0.6.RELEASE" target="org.springframework:spring-test:jar:5.0.6.RELEASE/org.springframework:spring-core:jar:5.0.6.RELEASE">
+              <point x="59.66666666666663" y="-14.5" />
+              <point x="724.9180293501049" y="395.0" />
+              <point x="845.2615303983227" y="395.0" />
+              <point x="845.2615303983227" y="138.0" />
+              <point x="642.4604821802934" y="138.0" />
+              <point x="34.66666666666663" y="14.5" />
+            </edge>
+            <edge source="org.cxj:spring-redis-integration:1.0-SNAPSHOT" target="org.springframework:spring-test:jar:5.0.6.RELEASE">
+              <point x="22.5" y="-14.5" />
+              <point x="914.0013626834382" y="558.0" />
+              <point x="939.7836477987423" y="558.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="org.springframework.data:spring-data-redis:jar:2.0.7.RELEASE" target="org.springframework.data:spring-data-redis:jar:2.0.7.RELEASE/org.springframework.data:spring-data-keyvalue:jar:1.2.9.RELEASE">
+              <point x="-35.0" y="-14.5" />
+              <point x="281.8763626834382" y="474.0" />
+              <point x="163.50136268343823" y="474.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="org.springframework.data:spring-data-redis:jar:2.0.7.RELEASE/org.springframework.data:spring-data-keyvalue:jar:1.2.9.RELEASE/org.springframework:spring-context:jar:5.0.6.RELEASE" target="org.springframework.data:spring-data-redis:jar:2.0.7.RELEASE/org.springframework.data:spring-data-keyvalue:jar:1.2.9.RELEASE/org.springframework:spring-context:jar:5.0.6.RELEASE/org.springframework:spring-expression:jar:5.0.6.RELEASE">
+              <point x="-15.5" y="-14.5" />
+              <point x="618.7513626834383" y="316.0" />
+              <point x="602.7836477987422" y="316.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="junit:junit:jar:4.12" target="junit:junit:jar:4.12/org.hamcrest:hamcrest-core:jar:1.3">
+              <point x="0.0" y="-14.5" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="redis.clients:jedis:jar:2.9.0" target="redis.clients:jedis:jar:2.9.0/org.apache.commons:commons-pool2:jar:2.4.3">
+              <point x="0.0" y="-14.5" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="org.cxj:spring-redis-integration:1.0-SNAPSHOT" target="redis.clients:jedis:jar:2.9.0">
+              <point x="-22.5" y="-14.5" />
+              <point x="869.0013626834382" y="558.0" />
+              <point x="862.7836477987423" y="558.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="org.springframework.data:spring-data-redis:jar:2.0.7.RELEASE/org.springframework:spring-oxm:jar:5.0.6.RELEASE" target="org.springframework:spring-test:jar:5.0.6.RELEASE/org.springframework:spring-core:jar:5.0.6.RELEASE">
+              <point x="-25.75" y="-14.5" />
+              <point x="354.7513626834383" y="148.0" />
+              <point x="584.6827044025157" y="148.0" />
+              <point x="-23.111111111111086" y="14.5" />
+            </edge>
+            <edge source="org.springframework.data:spring-data-redis:jar:2.0.7.RELEASE/org.springframework.data:spring-data-keyvalue:jar:1.2.9.RELEASE" target="org.springframework.data:spring-data-redis:jar:2.0.7.RELEASE/org.springframework.data:spring-data-keyvalue:jar:1.2.9.RELEASE/org.springframework:spring-context:jar:5.0.6.RELEASE">
+              <point x="65.19999999999999" y="-14.5" />
+              <point x="228.70136268343822" y="395.0" />
+              <point x="603.2513626834383" y="395.0" />
+              <point x="-31.0" y="14.5" />
+            </edge>
+            <edge source="org.springframework.data:spring-data-redis:jar:2.0.7.RELEASE" target="org.springframework.data:spring-data-redis:jar:2.0.7.RELEASE/org.springframework:spring-oxm:jar:5.0.6.RELEASE">
+              <point x="11.666666666666686" y="-14.5" />
+              <point x="328.5430293501049" y="464.0" />
+              <point x="412.0" y="464.0" />
+              <point x="412.0" y="306.0" />
+              <point x="380.5013626834383" y="306.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="org.springframework.data:spring-data-redis:jar:2.0.7.RELEASE/org.springframework.data:spring-data-keyvalue:jar:1.2.9.RELEASE/org.springframework.data:spring-data-commons:jar:1.13.9.RELEASE" target="org.springframework:spring-test:jar:5.0.6.RELEASE/org.springframework:spring-core:jar:5.0.6.RELEASE">
+              <point x="21.25" y="-14.5" />
+              <point x="199.5" y="316.0" />
+              <point x="168.0" y="316.0" />
+              <point x="168.0" y="128.0" />
+              <point x="561.5715932914046" y="128.0" />
+              <point x="-46.22222222222217" y="14.5" />
+            </edge>
+            <edge source="org.springframework.data:spring-data-redis:jar:2.0.7.RELEASE/org.springframework:spring-oxm:jar:5.0.6.RELEASE" target="org.springframework.data:spring-data-redis:jar:2.0.7.RELEASE/org.springframework:spring-tx:jar:5.0.6.RELEASE/org.springframework:spring-beans:jar:5.0.6.RELEASE">
+              <point x="25.75" y="-14.5" />
+              <point x="406.2513626834383" y="237.0" />
+              <point x="425.2836477987422" y="237.0" />
+              <point x="-28.5" y="14.5" />
+            </edge>
+            <edge source="org.springframework.data:spring-data-redis:jar:2.0.7.RELEASE" target="org.springframework.data:spring-data-redis:jar:2.0.7.RELEASE/org.springframework:spring-context-support:jar:5.0.6.RELEASE">
+              <point x="35.0" y="-14.5" />
+              <point x="351.8763626834382" y="474.0" />
+              <point x="665.2513626834383" y="474.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="org.springframework.data:spring-data-redis:jar:2.0.7.RELEASE/org.springframework.data:spring-data-keyvalue:jar:1.2.9.RELEASE/org.slf4j:jcl-over-slf4j:jar:1.7.25" target="org.springframework.data:spring-data-redis:jar:2.0.7.RELEASE/org.slf4j:slf4j-api:jar:1.7.25">
+              <point x="0.0" y="-14.5" />
+              <point x="86.12636268343823" y="237.0" />
+              <point x="51.25" y="237.0" />
+              <point x="10.25" y="14.5" />
+            </edge>
+            <edge source="org.springframework.data:spring-data-redis:jar:2.0.7.RELEASE/org.springframework.data:spring-data-keyvalue:jar:1.2.9.RELEASE/org.springframework.data:spring-data-commons:jar:1.13.9.RELEASE" target="org.springframework.data:spring-data-redis:jar:2.0.7.RELEASE/org.springframework:spring-tx:jar:5.0.6.RELEASE/org.springframework:spring-beans:jar:5.0.6.RELEASE">
+              <point x="63.75" y="-14.5" />
+              <point x="242.0" y="316.0" />
+              <point x="442.5013626834383" y="316.0" />
+              <point x="442.5013626834383" y="237.0" />
+              <point x="444.2836477987422" y="237.0" />
+              <point x="-9.5" y="14.5" />
+            </edge>
+            <edge source="org.springframework.data:spring-data-redis:jar:2.0.7.RELEASE/org.springframework.data:spring-data-keyvalue:jar:1.2.9.RELEASE/org.springframework:spring-context:jar:5.0.6.RELEASE/org.springframework:spring-expression:jar:5.0.6.RELEASE" target="org.springframework:spring-test:jar:5.0.6.RELEASE/org.springframework:spring-core:jar:5.0.6.RELEASE">
+              <point x="0.0" y="-14.5" />
+              <point x="602.7836477987422" y="158.0" />
+              <point x="607.7938155136268" y="158.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="org.springframework.data:spring-data-redis:jar:2.0.7.RELEASE/org.springframework:spring-aop:jar:5.0.6.RELEASE" target="org.springframework:spring-test:jar:5.0.6.RELEASE/org.springframework:spring-core:jar:5.0.6.RELEASE">
+              <point x="25.0" y="-14.5" />
+              <point x="785.7836477987423" y="148.0" />
+              <point x="630.9049266247379" y="148.0" />
+              <point x="23.111111111111086" y="14.5" />
+            </edge>
+            <edge source="org.springframework.data:spring-data-redis:jar:2.0.7.RELEASE/org.springframework.data:spring-data-keyvalue:jar:1.2.9.RELEASE" target="org.springframework.data:spring-data-redis:jar:2.0.7.RELEASE/org.slf4j:slf4j-api:jar:1.7.25">
+              <point x="-65.19999999999999" y="-14.5" />
+              <point x="98.30136268343824" y="395.0" />
+              <point x="20.62636268343823" y="395.0" />
+              <point x="20.62636268343823" y="237.0" />
+              <point x="30.75" y="237.0" />
+              <point x="-10.25" y="14.5" />
+            </edge>
+            <edge source="org.springframework.data:spring-data-redis:jar:2.0.7.RELEASE" target="org.springframework.data:spring-data-redis:jar:2.0.7.RELEASE/org.springframework:spring-aop:jar:5.0.6.RELEASE">
+              <point x="58.333333333333314" y="-14.5" />
+              <point x="375.20969601677155" y="484.0" />
+              <point x="785.7836477987423" y="484.0" />
+              <point x="25.0" y="14.5" />
+            </edge>
+            <edge source="org.springframework.data:spring-data-redis:jar:2.0.7.RELEASE" target="org.springframework.data:spring-data-redis:jar:2.0.7.RELEASE/org.slf4j:slf4j-api:jar:1.7.25">
+              <point x="-58.333333333333314" y="-14.5" />
+              <point x="258.5430293501049" y="484.0" />
+              <point x="6.736530398322827" y="484.0" />
+              <point x="6.736530398322827" y="237.0" />
+              <point x="10.25" y="237.0" />
+              <point x="-30.75" y="14.5" />
+            </edge>
+            <edge source="org.springframework.data:spring-data-redis:jar:2.0.7.RELEASE/org.springframework.data:spring-data-keyvalue:jar:1.2.9.RELEASE/org.springframework:spring-context:jar:5.0.6.RELEASE" target="org.springframework:spring-test:jar:5.0.6.RELEASE/org.springframework:spring-core:jar:5.0.6.RELEASE">
+              <point x="15.5" y="-14.5" />
+              <point x="649.7513626834383" y="306.0" />
+              <point x="685.2836477987422" y="306.0" />
+              <point x="685.2836477987422" y="158.0" />
+              <point x="619.3493710691823" y="158.0" />
+              <point x="11.555555555555543" y="14.5" />
+            </edge>
+            <edge source="org.springframework.data:spring-data-redis:jar:2.0.7.RELEASE/org.springframework:spring-context-support:jar:5.0.6.RELEASE" target="org.springframework.data:spring-data-redis:jar:2.0.7.RELEASE/org.springframework.data:spring-data-keyvalue:jar:1.2.9.RELEASE/org.springframework:spring-context:jar:5.0.6.RELEASE">
+              <point x="0.0" y="-14.5" />
+              <point x="31.0" y="14.5" />
+            </edge>
+            <edge source="org.springframework:spring-test:jar:5.0.6.RELEASE" target="org.springframework:spring-test:jar:5.0.6.RELEASE/org.springframework:spring-core:jar:5.0.6.RELEASE">
+              <point x="0.0" y="-14.5" />
+              <point x="939.7836477987423" y="128.0" />
+              <point x="654.016037735849" y="128.0" />
+              <point x="46.22222222222217" y="14.5" />
+            </edge>
+            <edge source="org.springframework.data:spring-data-redis:jar:2.0.7.RELEASE/org.springframework.data:spring-data-keyvalue:jar:1.2.9.RELEASE" target="org.springframework.data:spring-data-redis:jar:2.0.7.RELEASE/org.springframework.data:spring-data-keyvalue:jar:1.2.9.RELEASE/org.slf4j:jcl-over-slf4j:jar:1.7.25">
+              <point x="-32.599999999999966" y="-14.5" />
+              <point x="130.90136268343826" y="385.0" />
+              <point x="58.62636268343823" y="385.0" />
+              <point x="-27.5" y="14.5" />
+            </edge>
+            <edge source="org.springframework.data:spring-data-redis:jar:2.0.7.RELEASE/org.springframework.data:spring-data-keyvalue:jar:1.2.9.RELEASE/org.springframework.data:spring-data-commons:jar:1.13.9.RELEASE" target="org.springframework.data:spring-data-redis:jar:2.0.7.RELEASE/org.slf4j:slf4j-api:jar:1.7.25">
+              <point x="-21.25" y="-14.5" />
+              <point x="157.0" y="316.0" />
+              <point x="153.12636268343823" y="316.0" />
+              <point x="153.12636268343823" y="227.0" />
+              <point x="71.75" y="227.0" />
+              <point x="30.75" y="14.5" />
+            </edge>
+            <edge source="org.springframework.data:spring-data-redis:jar:2.0.7.RELEASE" target="org.springframework.data:spring-data-redis:jar:2.0.7.RELEASE/org.springframework:spring-tx:jar:5.0.6.RELEASE">
+              <point x="-11.666666666666629" y="-14.5" />
+              <point x="305.20969601677155" y="464.0" />
+              <point x="284.75" y="464.0" />
+              <point x="284.75" y="306.0" />
+              <point x="286.75136268343823" y="306.0" />
+              <point x="22.25" y="14.5" />
+            </edge>
+            <edge source="org.springframework.data:spring-data-redis:jar:2.0.7.RELEASE/org.springframework:spring-context-support:jar:5.0.6.RELEASE" target="org.springframework.data:spring-data-redis:jar:2.0.7.RELEASE/org.springframework:spring-tx:jar:5.0.6.RELEASE/org.springframework:spring-beans:jar:5.0.6.RELEASE">
+              <point x="-59.66666666666663" y="-14.5" />
+              <point x="605.5846960167717" y="385.0" />
+              <point x="459.2836477987422" y="385.0" />
+              <point x="459.2836477987422" y="237.0" />
+              <point x="463.2836477987422" y="237.0" />
+              <point x="9.5" y="14.5" />
+            </edge>
+            <edge source="org.springframework.data:spring-data-redis:jar:2.0.7.RELEASE/org.springframework:spring-tx:jar:5.0.6.RELEASE/org.springframework:spring-beans:jar:5.0.6.RELEASE" target="org.springframework:spring-test:jar:5.0.6.RELEASE/org.springframework:spring-core:jar:5.0.6.RELEASE">
+              <point x="0.0" y="-14.5" />
+              <point x="453.7836477987422" y="158.0" />
+              <point x="596.2382599580712" y="158.0" />
+              <point x="-11.555555555555543" y="14.5" />
+            </edge>
+            <edge source="org.springframework.data:spring-data-redis:jar:2.0.7.RELEASE/org.springframework:spring-tx:jar:5.0.6.RELEASE" target="org.springframework:spring-test:jar:5.0.6.RELEASE/org.springframework:spring-core:jar:5.0.6.RELEASE">
+              <point x="-22.25" y="-14.5" />
+              <point x="242.25136268343826" y="138.0" />
+              <point x="573.1271488469602" y="138.0" />
+              <point x="-34.66666666666663" y="14.5" />
+            </edge>
+            <edge source="org.springframework.data:spring-data-redis:jar:2.0.7.RELEASE/org.springframework:spring-aop:jar:5.0.6.RELEASE" target="org.springframework.data:spring-data-redis:jar:2.0.7.RELEASE/org.springframework:spring-tx:jar:5.0.6.RELEASE/org.springframework:spring-beans:jar:5.0.6.RELEASE">
+              <point x="-25.0" y="-14.5" />
+              <point x="735.7836477987423" y="227.0" />
+              <point x="501.2836477987422" y="227.0" />
+              <point x="47.5" y="14.5" />
+            </edge>
+            <edge source="org.springframework.data:spring-data-redis:jar:2.0.7.RELEASE/org.springframework.data:spring-data-keyvalue:jar:1.2.9.RELEASE" target="org.springframework.data:spring-data-redis:jar:2.0.7.RELEASE/org.springframework.data:spring-data-keyvalue:jar:1.2.9.RELEASE/org.springframework.data:spring-data-commons:jar:1.13.9.RELEASE">
+              <point x="0.0" y="-14.5" />
+              <point x="163.50136268343823" y="395.0" />
+              <point x="178.25" y="395.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="org.springframework.data:spring-data-redis:jar:2.0.7.RELEASE/org.springframework.data:spring-data-keyvalue:jar:1.2.9.RELEASE/org.springframework:spring-context:jar:5.0.6.RELEASE" target="org.springframework.data:spring-data-redis:jar:2.0.7.RELEASE/org.springframework:spring-aop:jar:5.0.6.RELEASE">
+              <point x="46.5" y="-14.5" />
+              <point x="680.7513626834383" y="316.0" />
+              <point x="735.7836477987423" y="316.0" />
+              <point x="-25.0" y="14.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="0.49050632911392406" x="132.83548387096772" y="469.2903225806452" />
+          <SelectedNodes>
+            <node>org.cxj:spring-redis-integration:1.0-SNAPSHOT</node>
+          </SelectedNodes>
+          <Categories />
+          <VISIBILITY>All</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubboIntegration/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="32" column="34" selection-start-line="32" selection-start-column="34" selection-end-line="32" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-mybatis-integration/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="25" column="21" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springRedisIntegration/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="93">
+          <caret line="22" column="21" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-integration-config-server/src/main/java/org/cxj/cloud/integration/main/CloudIntegrationConfigServerApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="82">
+          <caret line="13" column="1" selection-start-line="13" selection-end-line="13" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#362#363#0" expanded="true" />
+            <element signature="e#443#444#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-config-project/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-104" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-integration-config-server/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="34" column="65" selection-start-line="34" selection-start-column="65" selection-end-line="34" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-config-project/src/main/resources/api-integration-config-path/api-integration.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-config-project/src/main/resources/api-integration-config-path/api-integration-dev.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="24" selection-start-column="24" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/spring-cloud-api-integration/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" column="42" selection-start-line="30" selection-start-column="42" selection-end-line="30" selection-end-column="42" />
+        <state relative-caret-position="253">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-api-integration/src/main/java/org/cxj/integration/api/controller/HelloController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#304#305#0" expanded="true" />
+            <element signature="e#330#331#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/spring-cloud-api-integration/src/main/java/org/cxj/integration/api/main/Application.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        <state relative-caret-position="150">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#202#203#0" expanded="true" />
+            <element signature="e#238#239#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-config-project/api-integration-config/api-integration-dev.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="24" selection-start-column="24" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="28">
+          <caret line="21" column="53" selection-start-line="21" selection-start-column="53" selection-end-line="21" selection-end-column="53" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/spring-cloud-api-integration/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
-          <caret line="5" column="53" selection-start-line="5" selection-start-column="53" selection-end-line="5" selection-end-column="53" />
+          <caret line="5" column="12" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-cloud-config-project/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/spring-cloud-api-integration/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="32" lean-forward="true" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-config-server/1.3.4.RELEASE/spring-cloud-config-server-1.3.4.RELEASE.jar!/org/springframework/cloud/config/server/environment/MultipleJGitEnvironmentRepository.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-integration-config-server/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
+        </state>
+      </provider>
     </entry>
   </component>
   <component name="masterDetails">
     <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>spring-cloud-integration-config-server:war</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>dubboIntegration</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="ProjectJDKs.UI">
         <settings>
           <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited />
           <splitter-proportions>
             <option name="proportions">
               <list>
