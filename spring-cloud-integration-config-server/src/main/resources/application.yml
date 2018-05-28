@@ -7,8 +7,8 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/islittlechen/webintegration.git
-          label: web-integration-dev
+          uri: https://github.com/islittlechen/git-config-repo.git
+          label: master
           username: islittlechen@sina.cn
           password: ilc227610
-          search-paths: gitconfig
+          search-paths: api-integration-config
