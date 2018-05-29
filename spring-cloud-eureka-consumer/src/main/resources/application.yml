@@ -1,0 +1,10 @@
+server:
+  port: 8890
+spring:
+  application:
+    name: consumer-hello
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:1110/eureka/
+

@@ -21,6 +21,8 @@
         <module>spring-boot-mybatis-integration</module>
         <module>spring-cloud-api-integration</module>
         <module>spring-cloud-integration-config-server</module>
+        <module>spring-cloud-eureka-server</module>
+        <module>spring-cloud-eureka-consumer</module>
     </modules>
 
     <properties>

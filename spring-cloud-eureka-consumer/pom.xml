@@ -9,8 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>spring-cloud-api-integration</artifactId>
-
+    <artifactId>spring-cloud-eureka-consumer</artifactId>
 
     <dependencies>
         <dependency>
@@ -26,6 +25,10 @@
             <artifactId>spring-cloud-starter-eureka</artifactId>
         </dependency>
         <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-ribbon</artifactId>
+        </dependency>
+        <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
@@ -35,4 +38,5 @@
             <scope>test</scope>
         </dependency>
     </dependencies>
+
 </project>
