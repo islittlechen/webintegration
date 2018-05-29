@@ -2,20 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8a8c27c2-2d2c-4338-9797-e6f3222436b5" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/spring-cloud-eureka-consumer/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cloud-eureka-consumer/src/main/java/org/cxj/eureka/consumer/controller/HelloController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cloud-eureka-consumer/src/main/java/org/cxj/eureka/consumer/main/ConsumerApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cloud-eureka-consumer/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cloud-eureka-server/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cloud-eureka-server/src/main/java/com/cxj/eureka/server/main/EurekaServerApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cloud-eureka-server/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cloud-eureka-consumer/src/main/java/org/cxj/eureka/consumer/controller/FeignHelloController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cloud-eureka-consumer/src/main/java/org/cxj/eureka/consumer/inter/HelloApiClient.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-api-integration/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-api-integration/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-api-integration/src/main/java/org/cxj/integration/api/main/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-api-integration/src/main/java/org/cxj/integration/api/main/Application.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring-cloud-api-integration/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-api-integration/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-eureka-consumer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-eureka-consumer/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-eureka-consumer/src/main/java/org/cxj/eureka/consumer/main/ConsumerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-eureka-consumer/src/main/java/org/cxj/eureka/consumer/main/ConsumerApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-eureka-consumer/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-eureka-consumer/src/main/resources/application.yml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -36,34 +29,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Application.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-cloud-api-integration/src/main/java/org/cxj/integration/api/main/Application.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#359#360#0" expanded="true" />
-                <element signature="e#420#421#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application.yml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/spring-cloud-api-integration/src/main/resources/application.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="318">
-              <caret line="24" column="48" selection-start-line="24" selection-start-column="6" selection-end-line="24" selection-end-column="48" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spring-cloud-eureka-consumer/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="123">
-              <caret line="30" column="20" selection-start-line="30" selection-start-column="20" selection-end-line="30" selection-end-column="20" />
+            <state relative-caret-position="227">
+              <caret line="34" column="21" lean-forward="true" selection-start-line="34" selection-start-column="21" selection-end-line="34" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -71,26 +41,42 @@
       <file leaf-file-name="ConsumerApplication.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spring-cloud-eureka-consumer/src/main/java/org/cxj/eureka/consumer/main/ConsumerApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="137">
-              <caret line="12" column="43" lean-forward="true" selection-start-line="12" selection-start-column="43" selection-end-line="12" selection-end-column="43" />
+            <state relative-caret-position="142">
+              <caret line="15" column="66" selection-start-line="15" selection-start-column="66" selection-end-line="15" selection-end-column="66" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#351#352#0" expanded="true" />
-                <element signature="e#391#392#0" expanded="true" />
-                <element signature="e#639#640#0" expanded="true" />
-                <element signature="e#671#672#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HelloController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-cloud-eureka-consumer/src/main/java/org/cxj/eureka/consumer/controller/HelloController.java">
+      <file leaf-file-name="EnableFeignClients.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-core/1.3.6.RELEASE/spring-cloud-netflix-core-1.3.6.RELEASE.jar!/org/springframework/cloud/netflix/feign/EnableFeignClients.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="118">
+              <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-cloud-api-integration/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="31" selection-start-column="8" selection-end-column="31" />
+              <caret column="7" lean-forward="true" selection-start-column="7" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FeignHelloController.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/spring-cloud-eureka-consumer/src/main/java/org/cxj/eureka/consumer/controller/FeignHelloController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="169">
+              <caret line="13" column="32" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#473#474#0" expanded="true" />
+                <element signature="e#525#526#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -99,17 +85,55 @@
       <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spring-cloud-eureka-consumer/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="109">
-              <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
+            <state relative-caret-position="150">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-cloud-api-integration/pom.xml">
+      <file leaf-file-name="HelloApiClient.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-cloud-eureka-consumer/src/main/java/org/cxj/eureka/consumer/inter/HelloApiClient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="124">
-              <caret line="35" column="21" selection-start-line="15" selection-start-column="7" selection-end-line="35" selection-end-column="21" />
+            <state>
+              <caret column="8" lean-forward="true" selection-start-column="8" selection-end-column="37" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FeignClient.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-core/1.3.6.RELEASE/spring-cloud-netflix-core-1.3.6.RELEASE.jar!/org/springframework/cloud/netflix/feign/FeignClient.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-54">
+              <caret line="17" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HelloController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-cloud-api-integration/src/main/java/org/cxj/integration/api/controller/HelloController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="177">
+              <caret line="26" column="3" lean-forward="true" selection-start-line="26" selection-start-column="3" selection-end-line="26" selection-end-column="37" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#771#772#0" expanded="true" />
+                <element signature="e#867#868#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HelloController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-cloud-eureka-consumer/src/main/java/org/cxj/eureka/consumer/controller/HelloController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="199">
+              <caret line="15" column="64" lean-forward="true" selection-start-line="15" selection-start-column="49" selection-end-line="15" selection-end-column="64" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -193,9 +217,11 @@
         <option value="$PROJECT_DIR$/spring-cloud-eureka-server/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/spring-cloud-api-integration/pom.xml" />
         <option value="$PROJECT_DIR$/spring-cloud-api-integration/src/main/java/org/cxj/integration/api/main/Application.java" />
-        <option value="$PROJECT_DIR$/spring-cloud-api-integration/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/spring-cloud-eureka-consumer/pom.xml" />
         <option value="$PROJECT_DIR$/spring-cloud-eureka-consumer/src/main/java/org/cxj/eureka/consumer/controller/HelloController.java" />
+        <option value="$PROJECT_DIR$/spring-cloud-eureka-consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-cloud-eureka-consumer/src/main/java/org/cxj/eureka/consumer/inter/HelloApiClient.java" />
+        <option value="$PROJECT_DIR$/spring-cloud-eureka-consumer/src/main/java/org/cxj/eureka/consumer/controller/FeignHelloController.java" />
+        <option value="$PROJECT_DIR$/spring-cloud-api-integration/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/spring-cloud-eureka-consumer/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/spring-cloud-eureka-consumer/src/main/java/org/cxj/eureka/consumer/main/ConsumerApplication.java" />
       </list>
@@ -218,8 +244,8 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="21" />
-    <option name="y" value="32" />
+    <option name="x" value="147" />
+    <option name="y" value="23" />
     <option name="width" value="1260" />
     <option name="height" value="689" />
   </component>
@@ -255,6 +281,53 @@
               <item name="spring-cloud-api-integration" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="webintegration" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webintegration" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-cloud-api-integration" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="webintegration" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webintegration" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-cloud-api-integration" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="webintegration" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webintegration" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-cloud-api-integration" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="webintegration" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webintegration" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-cloud-api-integration" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="webintegration" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webintegration" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-cloud-api-integration" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+              <item name="settings" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="webintegration" type="b2602c69:ProjectViewProjectNode" />
@@ -308,6 +381,16 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="consumer" type="462c0819:PsiDirectoryNode" />
               <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="webintegration" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webintegration" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-cloud-eureka-consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="inter" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="webintegration" type="b2602c69:ProjectViewProjectNode" />
@@ -512,8 +595,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.ConsumerApplication" />
-        <item itemvalue="Spring Boot.EurekaServerApplication" />
         <item itemvalue="Spring Boot.Application" />
+        <item itemvalue="Spring Boot.EurekaServerApplication" />
         <item itemvalue="Application.CloudIntegrationConfigServerApp" />
         <item itemvalue="JUnit.RedisClusterTest.test" />
       </list>
@@ -535,7 +618,7 @@
       <workItem from="1527213541269" duration="7633000" />
       <workItem from="1527404243517" duration="366000" />
       <workItem from="1527473498953" duration="16372000" />
-      <workItem from="1527559180535" duration="7569000" />
+      <workItem from="1527559180535" duration="10897000" />
     </task>
     <task id="LOCAL-00001" summary="dubbo 环境搭建测试">
       <created>1527131855874</created>
@@ -628,7 +711,14 @@
       <option name="project" value="LOCAL" />
       <updated>1527503613876</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="eureka server,producer,consumer 测试">
+      <created>1527581672094</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1527581672094</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -661,14 +751,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51953000" />
+    <option name="totallyTimeSpent" value="55281000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="21" y="32" width="1260" height="689" extended-state="0" />
-    <editor active="true" />
+    <frame x="-117" y="23" width="1260" height="689" extended-state="0" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.11904762" side_tool="true" visible="true" weight="0.23739837" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.11984127" side_tool="true" visible="true" weight="0.3804878" />
       <window_info anchor="right" id="Maven Projects" order="7" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info id="Capture Tool" order="3" />
@@ -685,10 +774,10 @@
       <window_info anchor="bottom" id="Java Enterprise" order="13" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Version Control" order="11" sideWeight="0.4984127" weight="0.3284553" />
-      <window_info anchor="bottom" id="Run" order="4" sideWeight="0.88095236" visible="true" weight="0.23739837" />
+      <window_info active="true" anchor="bottom" id="Run" order="4" sideWeight="0.8801587" visible="true" weight="0.3804878" />
       <window_info anchor="bottom" id="Spring" order="0" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.5793651" weight="0.4504065" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30476192" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.57857144" weight="0.4504065" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.30476192" />
       <window_info anchor="right" id="Bean Validation" order="9" />
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="right" id="Theme Preview" order="5" />
@@ -739,7 +828,8 @@
     <MESSAGE value="config server test" />
     <MESSAGE value="redis cluster 测试" />
     <MESSAGE value="server config refresh 测试" />
-    <option name="LAST_COMMIT_MESSAGE" value="server config refresh 测试" />
+    <MESSAGE value="eureka server,producer,consumer 测试" />
+    <option name="LAST_COMMIT_MESSAGE" value="eureka server,producer,consumer 测试" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -755,25 +845,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="15">
-            <caret line="1" column="14" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-mybatis-integration/src/main/resources/daily/application.properties" />
-    <entry file="file://$PROJECT_DIR$/spring-boot-mybatis-integration/src/main/resources/daily/logback.xml" />
-    <entry file="file://$PROJECT_DIR$/springRedisIntegration/src/main/resources/redis.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="36" lean-forward="true" selection-start-line="13" selection-start-column="36" selection-end-line="13" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/springRedisIntegration/src/main/resources/spring-redis-cluster-config.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-88">
@@ -813,13 +884,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="97">
           <caret line="21" column="43" selection-start-line="21" selection-start-column="43" selection-end-line="21" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-mybatis-integration/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="122">
-          <caret line="9" column="60" selection-start-line="9" selection-start-column="60" selection-end-line="9" selection-end-column="60" />
         </state>
       </provider>
     </entry>
@@ -1174,18 +1238,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/gitconfig/spring-cloud-api-integration/src/main/java/org/cxj/integration/api/controller/HelloController.java" />
-    <entry file="file://$PROJECT_DIR$/spring-cloud-api-integration/src/main/java/org/cxj/integration/api/controller/HelloController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#713#714#0" expanded="true" />
-            <element signature="e#809#810#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/spring-cloud-api-integration/src/main/resources/bootstrap.yml" />
     <entry file="file://$PROJECT_DIR$/gitconfig/gitconfig/api-integration-dev.properties" />
     <entry file="file://$PROJECT_DIR$/spring-cloud-integration-config-server/src/main/resources/application.yml">
@@ -1324,29 +1376,79 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/spring-cloud-api-integration/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
+        <state relative-caret-position="287">
           <caret line="35" column="21" selection-start-line="15" selection-start-column="7" selection-end-line="35" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-api-integration/src/main/java/org/cxj/integration/api/controller/HelloController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="26" column="3" lean-forward="true" selection-start-line="26" selection-start-column="3" selection-end-line="26" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#771#772#0" expanded="true" />
+            <element signature="e#867#868#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-mybatis-integration/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="122">
+          <caret line="9" column="60" selection-start-line="9" selection-start-column="60" selection-end-line="9" selection-end-column="60" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/spring-cloud-eureka-consumer/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="123">
-          <caret line="30" column="20" selection-start-line="30" selection-start-column="20" selection-end-line="30" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-cloud-eureka-consumer/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="109">
-          <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
+        <state relative-caret-position="227">
+          <caret line="34" column="21" lean-forward="true" selection-start-line="34" selection-start-column="21" selection-end-line="34" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/spring-cloud-eureka-consumer/src/main/java/org/cxj/eureka/consumer/controller/HelloController.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="15" column="64" lean-forward="true" selection-start-line="15" selection-start-column="49" selection-end-line="15" selection-end-column="64" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-eureka-consumer/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-core/1.3.6.RELEASE/spring-cloud-netflix-core-1.3.6.RELEASE.jar!/org/springframework/cloud/netflix/feign/FeignClient.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-54">
+          <caret line="17" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-core/1.3.6.RELEASE/spring-cloud-netflix-core-1.3.6.RELEASE.jar!/org/springframework/cloud/netflix/feign/EnableFeignClients.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="118">
+          <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-api-integration/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="31" selection-start-column="8" selection-end-column="31" />
+          <caret column="7" lean-forward="true" selection-start-column="7" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-eureka-consumer/src/main/java/org/cxj/eureka/consumer/inter/HelloApiClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="8" lean-forward="true" selection-start-column="8" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1355,22 +1457,23 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/spring-cloud-eureka-consumer/src/main/java/org/cxj/eureka/consumer/main/ConsumerApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="137">
-          <caret line="12" column="43" lean-forward="true" selection-start-line="12" selection-start-column="43" selection-end-line="12" selection-end-column="43" />
+        <state relative-caret-position="142">
+          <caret line="15" column="66" selection-start-line="15" selection-start-column="66" selection-end-line="15" selection-end-column="66" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#351#352#0" expanded="true" />
-            <element signature="e#391#392#0" expanded="true" />
-            <element signature="e#639#640#0" expanded="true" />
-            <element signature="e#671#672#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-cloud-api-integration/src/main/resources/application.yml">
+    <entry file="file://$PROJECT_DIR$/spring-cloud-eureka-consumer/src/main/java/org/cxj/eureka/consumer/controller/FeignHelloController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="318">
-          <caret line="24" column="48" selection-start-line="24" selection-start-column="6" selection-end-line="24" selection-end-column="48" />
+        <state relative-caret-position="169">
+          <caret line="13" column="32" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#473#474#0" expanded="true" />
+            <element signature="e#525#526#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

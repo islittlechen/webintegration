@@ -8,3 +8,5 @@ eureka:
     service-url:
       defaultZone: http://localhost:1110/eureka/
 
+
+
