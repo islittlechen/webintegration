@@ -21,7 +21,7 @@ public class HelloController {
 
 
     @RequestMapping("/api/hello")
-    @HystrixCommand(fallbackMethod = "fallbackMethod") //Hystrix服务降级
+    @HystrixCommand(fallbackMethod = "fallbackMethod",commandKey="apiEcho") //Hystrix服务降级
     public String echo(){
         if(System.currentTimeMillis() % 2 ==0 ){
             throw new RuntimeException("测试服务降级功能");
