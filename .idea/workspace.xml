@@ -2,24 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8a8c27c2-2d2c-4338-9797-e6f3222436b5" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/spring-cloud-zuul-integration/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cloud-zuul-integration/spring-cloud-zuul-integration.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cloud-zuul-integration/src/main/java/org/cxj/api/gateway/controller/HelloController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cloud-zuul-integration/src/main/java/org/cxj/api/gateway/main/ApiGatewayApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cloud-zuul-integration/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-api-integration/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-api-integration/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-api-integration/src/main/java/org/cxj/integration/api/controller/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-api-integration/src/main/java/org/cxj/integration/api/controller/HelloController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring-cloud-api-integration/src/main/java/org/cxj/integration/api/main/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-api-integration/src/main/java/org/cxj/integration/api/main/Application.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring-cloud-api-integration/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-api-integration/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-eureka-consumer/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-eureka-consumer/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-eureka-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-eureka-server/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-eureka-server/src/main/java/com/cxj/eureka/server/main/EurekaServerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-eureka-server/src/main/java/com/cxj/eureka/server/main/EurekaServerApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-eureka-server/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-eureka-server/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-integration-config-server/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-integration-config-server/src/main/resources/application.yml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -41,20 +26,53 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="application.yml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/spring-cloud-zuul-integration/src/main/resources/application.yml">
+      <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-cloud-api-integration/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+            <state relative-caret-position="150">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-cloud-api-integration/src/main/resources/application.yml">
+      <file leaf-file-name="HelloController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-cloud-api-integration/src/main/java/org/cxj/integration/api/controller/HelloController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="9" />
+            <state relative-caret-position="172">
+              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Application.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/spring-cloud-api-integration/src/main/java/org/cxj/integration/api/main/Application.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HystrixCommand.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/hystrix/hystrix-javanica/1.5.12/hystrix-javanica-1.5.12.jar!/com/netflix/hystrix/contrib/javanica/annotation/HystrixCommand.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="99">
+              <caret line="18" column="32" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HystrixProperty.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/hystrix/hystrix-javanica/1.5.12/hystrix-javanica-1.5.12.jar!/com/netflix/hystrix/contrib/javanica/annotation/HystrixProperty.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -138,16 +156,16 @@
         <option value="$PROJECT_DIR$/spring-cloud-zuul-integration/src/main/java/org/cxj/api/gateway/controller/HelloController.java" />
         <option value="$PROJECT_DIR$/spring-cloud-eureka-server/src/main/java/com/cxj/eureka/server/main/EurekaServerApplication.java" />
         <option value="$PROJECT_DIR$/spring-cloud-eureka-server/pom.xml" />
-        <option value="$PROJECT_DIR$/spring-cloud-api-integration/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/spring-cloud-zuul-integration/src/main/java/org/cxj/api/gateway/main/ApiGatewayApplication.java" />
         <option value="$PROJECT_DIR$/spring-cloud-eureka-server/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/spring-cloud-eureka-consumer/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/spring-cloud-integration-config-server/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/spring-cloud-zuul-integration/pom.xml" />
         <option value="$PROJECT_DIR$/spring-cloud-api-integration/pom.xml" />
-        <option value="$PROJECT_DIR$/spring-cloud-api-integration/src/main/java/org/cxj/integration/api/main/Application.java" />
-        <option value="$PROJECT_DIR$/spring-cloud-api-integration/src/main/java/org/cxj/integration/api/controller/HelloController.java" />
         <option value="$PROJECT_DIR$/spring-cloud-zuul-integration/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/spring-cloud-api-integration/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/spring-cloud-api-integration/src/main/java/org/cxj/integration/api/controller/HelloController.java" />
+        <option value="$PROJECT_DIR$/spring-cloud-api-integration/src/main/java/org/cxj/integration/api/main/Application.java" />
       </list>
     </option>
   </component>
@@ -168,7 +186,6 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="586" />
     <option name="y" value="23" />
     <option name="width" value="1260" />
     <option name="height" value="689" />
@@ -493,8 +510,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ApiGatewayApplication" />
         <item itemvalue="Spring Boot.Application" />
+        <item itemvalue="Application.ApiGatewayApplication" />
         <item itemvalue="Application.ConsumerApplication" />
         <item itemvalue="Application.CloudIntegrationConfigServerApp" />
         <item itemvalue="Spring Boot.EurekaServerApplication" />
@@ -519,7 +536,7 @@
       <workItem from="1527473498953" duration="16372000" />
       <workItem from="1527559180535" duration="10897000" />
       <workItem from="1527645093680" duration="12595000" />
-      <workItem from="1527731690661" duration="13827000" />
+      <workItem from="1527731690661" duration="14939000" />
     </task>
     <task id="LOCAL-00001" summary="dubbo 环境搭建测试">
       <created>1527131855874</created>
@@ -619,7 +636,21 @@
       <option name="project" value="LOCAL" />
       <updated>1527581672094</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="eureka server,producer,consumer 测试">
+      <created>1527755097446</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1527755097446</updated>
+    </task>
+    <task id="LOCAL-00016" summary="eureka server,producer,consumer 测试">
+      <created>1527755587211</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1527755587211</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -652,13 +683,14 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="82683000" />
+    <option name="totallyTimeSpent" value="83795000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="165" y="23" width="1260" height="689" extended-state="0" />
+    <frame x="0" y="23" width="1260" height="689" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.124603175" side_tool="true" visible="true" weight="0.39512196" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.124603175" side_tool="true" visible="true" weight="0.596748" />
       <window_info anchor="right" id="Maven Projects" order="7" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info id="Capture Tool" order="3" />
@@ -675,7 +707,7 @@
       <window_info anchor="bottom" id="Java Enterprise" order="13" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Version Control" order="11" sideWeight="0.4984127" weight="0.3284553" />
-      <window_info active="true" anchor="bottom" id="Run" order="4" sideWeight="0.87539685" visible="true" weight="0.39512196" />
+      <window_info active="true" anchor="bottom" id="Run" order="4" sideWeight="0.87539685" visible="true" weight="0.596748" />
       <window_info anchor="bottom" id="Spring" order="0" />
       <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.5777778" weight="0.4504065" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25714287" />
@@ -746,20 +778,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/dubboIntegration/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="32" column="34" selection-start-line="32" selection-start-column="34" selection-end-line="32" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-mybatis-integration/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="25" column="21" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/springRedisIntegration/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="93">
@@ -1039,30 +1057,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-cloud-api-integration/src/main/java/org/cxj/integration/api/main/Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="15" column="8" lean-forward="true" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-cloud-api-integration/src/main/java/org/cxj/integration/api/controller/HelloController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="123">
-          <caret line="23" column="68" selection-start-line="23" selection-start-column="68" selection-end-line="23" selection-end-column="68" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#771#772#0" expanded="true" />
-            <element signature="e#867#868#0" expanded="true" />
-            <element signature="e#1034#1035#0" expanded="true" />
-            <element signature="e#1058#1059#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/spring-cloud-api-integration/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="262">
@@ -1077,17 +1071,51 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-cloud-api-integration/src/main/resources/application.yml">
+    <entry file="file://$PROJECT_DIR$/spring-cloud-zuul-integration/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret selection-end-line="9" />
+          <caret column="7" lean-forward="true" selection-start-column="7" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-cloud-zuul-integration/src/main/resources/application.yml">
+    <entry file="file://$PROJECT_DIR$/spring-cloud-api-integration/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/hystrix/hystrix-javanica/1.5.12/hystrix-javanica-1.5.12.jar!/com/netflix/hystrix/contrib/javanica/annotation/HystrixCommand.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="99">
+          <caret line="18" column="32" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/hystrix/hystrix-javanica/1.5.12/hystrix-javanica-1.5.12.jar!/com/netflix/hystrix/contrib/javanica/annotation/HystrixProperty.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+          <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-api-integration/src/main/java/org/cxj/integration/api/controller/HelloController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-api-integration/src/main/java/org/cxj/integration/api/main/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
