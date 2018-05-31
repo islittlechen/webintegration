@@ -12,6 +12,7 @@
         <module name="spring-cloud-eureka-consumer" />
         <module name="spring-cloud-eureka-server" />
         <module name="spring-cloud-integration-config-server" />
+        <module name="spring-cloud-zuul-integration" />
         <module name="springRedisIntegration" />
       </profile>
     </annotationProcessing>

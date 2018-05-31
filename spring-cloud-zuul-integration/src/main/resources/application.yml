@@ -1,9 +1,9 @@
 spring:
   application:
-    name: eureka-server
+    name: api-gateway
   cloud:
     config:
-      name: eureka-server
-      profile: slave2
+      name: api-gateway
+      profile: dev
       uri: http://localhost:8888
       label: master

@@ -1,6 +1,3 @@
-server:
-  port: 8789
-
 spring:
   application:
     name: api-integration
@@ -11,15 +8,4 @@ spring:
       uri: http://localhost:8888
       label: master
 
-management:
-  security:
-    enabled: false
 
-eureka:
-  instance:
-    hostname: localhost
-  client:
-    register-with-eureka: true
-    eureka-server-port: 1110
-    service-url:
-      defaultZone: http://localhost:1110/eureka/

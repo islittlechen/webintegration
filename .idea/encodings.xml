@@ -8,6 +8,7 @@
     <file url="file://$PROJECT_DIR$/spring-cloud-eureka-consumer" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-cloud-eureka-server" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-cloud-integration-config-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-cloud-zuul-integration" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springRedisIntegration" charset="UTF-8" />
   </component>
 </project>

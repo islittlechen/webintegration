@@ -11,4 +11,4 @@ spring:
           label: master
           username: islittlechen@sina.cn
           password: ilc227610
-          search-paths: api-integration-config
+          search-paths: api-integration-config,api-gateway-config,eureka-server-config,api-consumer-config

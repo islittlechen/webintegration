@@ -2,13 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8a8c27c2-2d2c-4338-9797-e6f3222436b5" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/spring-cloud-eureka-consumer/src/main/java/org/cxj/eureka/consumer/controller/FeignHelloController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cloud-eureka-consumer/src/main/java/org/cxj/eureka/consumer/inter/HelloApiClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cloud-zuul-integration/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cloud-zuul-integration/spring-cloud-zuul-integration.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cloud-zuul-integration/src/main/java/org/cxj/api/gateway/controller/HelloController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cloud-zuul-integration/src/main/java/org/cxj/api/gateway/main/ApiGatewayApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cloud-zuul-integration/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-api-integration/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-api-integration/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-api-integration/src/main/java/org/cxj/integration/api/controller/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-api-integration/src/main/java/org/cxj/integration/api/controller/HelloController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-api-integration/src/main/java/org/cxj/integration/api/main/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-api-integration/src/main/java/org/cxj/integration/api/main/Application.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring-cloud-api-integration/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-api-integration/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-eureka-consumer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-eureka-consumer/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-eureka-consumer/src/main/java/org/cxj/eureka/consumer/main/ConsumerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-eureka-consumer/src/main/java/org/cxj/eureka/consumer/main/ConsumerApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring-cloud-eureka-consumer/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-eureka-consumer/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-eureka-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-eureka-server/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-eureka-server/src/main/java/com/cxj/eureka/server/main/EurekaServerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-eureka-server/src/main/java/com/cxj/eureka/server/main/EurekaServerApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-eureka-server/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-eureka-server/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-integration-config-server/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-integration-config-server/src/main/resources/application.yml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -20,6 +31,7 @@
     <ignored path="$PROJECT_DIR$/spring-cloud-integration-config-server/target/" />
     <ignored path="$PROJECT_DIR$/spring-cloud-eureka-server/target/" />
     <ignored path="$PROJECT_DIR$/spring-cloud-eureka-consumer/target/" />
+    <ignored path="$PROJECT_DIR$/spring-cloud-zuul-integration/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,32 +41,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-cloud-eureka-consumer/pom.xml">
+      <file leaf-file-name="application.yml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/spring-cloud-zuul-integration/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="227">
-              <caret line="34" column="21" lean-forward="true" selection-start-line="34" selection-start-column="21" selection-end-line="34" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ConsumerApplication.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-cloud-eureka-consumer/src/main/java/org/cxj/eureka/consumer/main/ConsumerApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="142">
-              <caret line="15" column="66" selection-start-line="15" selection-start-column="66" selection-end-line="15" selection-end-column="66" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="EnableFeignClients.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-core/1.3.6.RELEASE/spring-cloud-netflix-core-1.3.6.RELEASE.jar!/org/springframework/cloud/netflix/feign/EnableFeignClients.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="118">
-              <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+            <state relative-caret-position="135">
+              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
             </state>
           </provider>
         </entry>
@@ -63,77 +54,7 @@
         <entry file="file://$PROJECT_DIR$/spring-cloud-api-integration/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="7" lean-forward="true" selection-start-column="7" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FeignHelloController.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/spring-cloud-eureka-consumer/src/main/java/org/cxj/eureka/consumer/controller/FeignHelloController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="169">
-              <caret line="13" column="32" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="32" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#473#474#0" expanded="true" />
-                <element signature="e#525#526#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-cloud-eureka-consumer/src/main/resources/application.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HelloApiClient.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-cloud-eureka-consumer/src/main/java/org/cxj/eureka/consumer/inter/HelloApiClient.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="8" lean-forward="true" selection-start-column="8" selection-end-column="37" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FeignClient.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-core/1.3.6.RELEASE/spring-cloud-netflix-core-1.3.6.RELEASE.jar!/org/springframework/cloud/netflix/feign/FeignClient.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-54">
-              <caret line="17" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HelloController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-cloud-api-integration/src/main/java/org/cxj/integration/api/controller/HelloController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="177">
-              <caret line="26" column="3" lean-forward="true" selection-start-line="26" selection-start-column="3" selection-end-line="26" selection-end-column="37" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#771#772#0" expanded="true" />
-                <element signature="e#867#868#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HelloController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-cloud-eureka-consumer/src/main/java/org/cxj/eureka/consumer/controller/HelloController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="199">
-              <caret line="15" column="64" lean-forward="true" selection-start-line="15" selection-start-column="49" selection-end-line="15" selection-end-column="64" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+              <caret selection-end-line="9" />
             </state>
           </provider>
         </entry>
@@ -156,6 +77,7 @@
       <find>com.smht.devops</find>
       <find>jacc</find>
       <find>spring-boot-starter-actuator</find>
+      <find>test</find>
     </findStrings>
     <replaceStrings>
       <replace>org.cxj.integration.mybatis</replace>
@@ -175,8 +97,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/dubboIntegration/src/main/java/org/cxj/di/interf/GreetingsService.java" />
-        <option value="$PROJECT_DIR$/dubboIntegration/src/main/java/org/cxj/di/App.java" />
         <option value="$PROJECT_DIR$/dubboIntegration/src/test/java/org/cxj/di/test/GreetingsServiceTest.java" />
         <option value="$PROJECT_DIR$/dubboIntegration/src/test/java/org/cxj/di/test/CurrencyTest.java" />
         <option value="$PROJECT_DIR$/dubboIntegration/src/main/java/org/cxj/di/impl/GreetingsServiceFailoverImpl.java" />
@@ -209,21 +129,25 @@
         <option value="$PROJECT_DIR$/spring-cloud-integration-config-server/pom.xml" />
         <option value="$PROJECT_DIR$/gitconfig/spring-cloud-api-integration/src/main/java/org/cxj/integration/api/controller/HelloController.java" />
         <option value="$PROJECT_DIR$/gitconfig/gitconfig/api-integration-dev.properties" />
-        <option value="$PROJECT_DIR$/spring-cloud-api-integration/src/main/java/org/cxj/integration/api/controller/HelloController.java" />
-        <option value="$PROJECT_DIR$/spring-cloud-integration-config-server/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/spring-cloud-api-integration/src/main/java/org/cxj/integration/api/settings/ApiConfiguration.java" />
-        <option value="$PROJECT_DIR$/spring-cloud-eureka-server/pom.xml" />
-        <option value="$PROJECT_DIR$/spring-cloud-eureka-server/src/main/java/com/cxj/eureka/server/main/EurekaServerApplication.java" />
-        <option value="$PROJECT_DIR$/spring-cloud-eureka-server/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/spring-cloud-api-integration/pom.xml" />
-        <option value="$PROJECT_DIR$/spring-cloud-api-integration/src/main/java/org/cxj/integration/api/main/Application.java" />
         <option value="$PROJECT_DIR$/spring-cloud-eureka-consumer/src/main/java/org/cxj/eureka/consumer/controller/HelloController.java" />
         <option value="$PROJECT_DIR$/spring-cloud-eureka-consumer/pom.xml" />
         <option value="$PROJECT_DIR$/spring-cloud-eureka-consumer/src/main/java/org/cxj/eureka/consumer/inter/HelloApiClient.java" />
         <option value="$PROJECT_DIR$/spring-cloud-eureka-consumer/src/main/java/org/cxj/eureka/consumer/controller/FeignHelloController.java" />
-        <option value="$PROJECT_DIR$/spring-cloud-api-integration/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/spring-cloud-eureka-consumer/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/spring-cloud-eureka-consumer/src/main/java/org/cxj/eureka/consumer/main/ConsumerApplication.java" />
+        <option value="$PROJECT_DIR$/spring-cloud-zuul-integration/src/main/java/org/cxj/api/gateway/controller/HelloController.java" />
+        <option value="$PROJECT_DIR$/spring-cloud-eureka-server/src/main/java/com/cxj/eureka/server/main/EurekaServerApplication.java" />
+        <option value="$PROJECT_DIR$/spring-cloud-eureka-server/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-cloud-api-integration/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/spring-cloud-zuul-integration/src/main/java/org/cxj/api/gateway/main/ApiGatewayApplication.java" />
+        <option value="$PROJECT_DIR$/spring-cloud-eureka-server/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/spring-cloud-eureka-consumer/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/spring-cloud-integration-config-server/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/spring-cloud-zuul-integration/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-cloud-api-integration/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-cloud-api-integration/src/main/java/org/cxj/integration/api/main/Application.java" />
+        <option value="$PROJECT_DIR$/spring-cloud-api-integration/src/main/java/org/cxj/integration/api/controller/HelloController.java" />
+        <option value="$PROJECT_DIR$/spring-cloud-zuul-integration/src/main/resources/application.yml" />
       </list>
     </option>
   </component>
@@ -244,7 +168,7 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="147" />
+    <option name="x" value="586" />
     <option name="y" value="23" />
     <option name="width" value="1260" />
     <option name="height" value="689" />
@@ -257,6 +181,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -325,87 +251,72 @@
               <item name="spring-cloud-api-integration" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
-              <item name="settings" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="webintegration" type="b2602c69:ProjectViewProjectNode" />
-              <item name="webintegration" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-cloud-api-integration" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="webintegration" type="b2602c69:ProjectViewProjectNode" />
               <item name="webintegration" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-cloud-eureka-consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-cloud-eureka-server" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="webintegration" type="b2602c69:ProjectViewProjectNode" />
               <item name="webintegration" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-cloud-eureka-consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-cloud-zuul-integration" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="webintegration" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webintegration" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-cloud-zuul-integration" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="webintegration" type="b2602c69:ProjectViewProjectNode" />
               <item name="webintegration" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-cloud-eureka-consumer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="webintegration" type="b2602c69:ProjectViewProjectNode" />
-              <item name="webintegration" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-cloud-eureka-consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-cloud-zuul-integration" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="webintegration" type="b2602c69:ProjectViewProjectNode" />
               <item name="webintegration" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-cloud-eureka-consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-cloud-zuul-integration" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="consumer" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="webintegration" type="b2602c69:ProjectViewProjectNode" />
               <item name="webintegration" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-cloud-eureka-consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-cloud-zuul-integration" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="gateway" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="webintegration" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webintegration" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-cloud-zuul-integration" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="gateway" type="462c0819:PsiDirectoryNode" />
               <item name="controller" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="webintegration" type="b2602c69:ProjectViewProjectNode" />
               <item name="webintegration" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-cloud-eureka-consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-cloud-zuul-integration" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="consumer" type="462c0819:PsiDirectoryNode" />
-              <item name="inter" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="webintegration" type="b2602c69:ProjectViewProjectNode" />
-              <item name="webintegration" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-cloud-eureka-consumer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="gateway" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="webintegration" type="b2602c69:ProjectViewProjectNode" />
               <item name="webintegration" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-cloud-eureka-consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-cloud-zuul-integration" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
@@ -418,9 +329,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -466,7 +375,18 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ConsumerApplication">
+  <component name="RunManager" selected="Application.ApiGatewayApplication">
+    <configuration name="ApiGatewayApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.cxj.api.gateway.main.ApiGatewayApplication" />
+      <module name="spring-cloud-zuul-integration" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.cxj.api.gateway.main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
     <configuration name="App" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.cxj.di.App" />
       <module name="dubboIntegration" />
@@ -503,29 +423,6 @@
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="RedisClusterTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="springRedisIntegration" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="redis.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="redis.test" />
-      <option name="MAIN_CLASS_NAME" value="redis.test.RedisClusterTest" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -552,7 +449,7 @@
       </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="org.cxj.integration.api.main.Application" />
     </configuration>
-    <configuration name="EurekaServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+    <configuration name="EurekaServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" singleton="false" temporary="true" nameIsGenerated="true">
       <module name="spring-cloud-eureka-server" />
       <extension name="coverage">
         <pattern>
@@ -561,6 +458,8 @@
         </pattern>
       </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.cxj.eureka.server.main.EurekaServerApplication" />
+      <option name="PROGRAM_PARAMETERS" value="-Deureka.datacenter=cloud" />
+      <option name="ALTERNATIVE_JRE_PATH" />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -586,19 +485,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.App" />
-      <item itemvalue="JUnit.RedisClusterTest.test" />
       <item itemvalue="Application.CloudIntegrationConfigServerApp" />
+      <item itemvalue="Application.ConsumerApplication" />
+      <item itemvalue="Application.ApiGatewayApplication" />
       <item itemvalue="Spring Boot.Application" />
       <item itemvalue="Spring Boot.EurekaServerApplication" />
-      <item itemvalue="Application.ConsumerApplication" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ConsumerApplication" />
+        <item itemvalue="Application.ApiGatewayApplication" />
         <item itemvalue="Spring Boot.Application" />
-        <item itemvalue="Spring Boot.EurekaServerApplication" />
+        <item itemvalue="Application.ConsumerApplication" />
         <item itemvalue="Application.CloudIntegrationConfigServerApp" />
-        <item itemvalue="JUnit.RedisClusterTest.test" />
+        <item itemvalue="Spring Boot.EurekaServerApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -619,6 +518,8 @@
       <workItem from="1527404243517" duration="366000" />
       <workItem from="1527473498953" duration="16372000" />
       <workItem from="1527559180535" duration="10897000" />
+      <workItem from="1527645093680" duration="12595000" />
+      <workItem from="1527731690661" duration="13827000" />
     </task>
     <task id="LOCAL-00001" summary="dubbo 环境搭建测试">
       <created>1527131855874</created>
@@ -751,13 +652,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55281000" />
+    <option name="totallyTimeSpent" value="82683000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-117" y="23" width="1260" height="689" extended-state="0" />
+    <frame x="165" y="23" width="1260" height="689" extended-state="0" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.11984127" side_tool="true" visible="true" weight="0.3804878" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.124603175" side_tool="true" visible="true" weight="0.39512196" />
       <window_info anchor="right" id="Maven Projects" order="7" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info id="Capture Tool" order="3" />
@@ -766,7 +667,7 @@
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
-      <window_info anchor="bottom" id="Debug" order="5" weight="0.41788617" />
+      <window_info anchor="bottom" id="Debug" order="5" sideWeight="0.49920633" weight="0.41788617" />
       <window_info anchor="bottom" id="TODO" order="12" />
       <window_info anchor="bottom" id="Messages" order="1" weight="0.3284553" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
@@ -774,12 +675,13 @@
       <window_info anchor="bottom" id="Java Enterprise" order="13" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Version Control" order="11" sideWeight="0.4984127" weight="0.3284553" />
-      <window_info active="true" anchor="bottom" id="Run" order="4" sideWeight="0.8801587" visible="true" weight="0.3804878" />
+      <window_info active="true" anchor="bottom" id="Run" order="4" sideWeight="0.87539685" visible="true" weight="0.39512196" />
       <window_info anchor="bottom" id="Spring" order="0" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.57857144" weight="0.4504065" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.30476192" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.5777778" weight="0.4504065" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25714287" />
       <window_info anchor="right" id="Bean Validation" order="9" />
       <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="3" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Inspection" order="7" weight="0.4" />
@@ -787,7 +689,6 @@
       <window_info anchor="bottom" id="Cvs" order="6" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="2" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="3" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -845,357 +746,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/springRedisIntegration/src/main/resources/spring-redis-cluster-config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-88">
-          <caret line="21" column="12" lean-forward="true" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-mybatis-integration/src/main/resources/mapper/UserMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="47" selection-start-line="8" selection-start-column="47" selection-end-line="8" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-mybatis-integration/src/main/java/org/cxj/integration/mybatis/model/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/mysql/mysql-connector-java/5.1.34/mysql-connector-java-5.1.34-sources.jar!/com/mysql/jdbc/Driver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="42" column="13" selection-start-line="42" selection-start-column="13" selection-end-line="42" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-mybatis-integration/src/main/resources/logback.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="44" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-mybatis-integration/src/main/java/org/cxj/integration/mybatis/service/UserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="97">
-          <caret line="21" column="43" selection-start-line="21" selection-start-column="43" selection-end-line="21" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-mybatis-integration/src/main/resources/mybatis-config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="18" column="62" selection-start-line="18" selection-start-column="62" selection-end-line="18" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-mybatis-integration/src/main/java/org/cxj/integration/mybatis/mapper/UserMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="45" selection-start-line="9" selection-start-column="45" selection-end-line="9" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot/2.0.2.RELEASE/spring-boot-2.0.2.RELEASE.jar!/org/springframework/boot/SpringApplication.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="89" column="11" selection-start-line="89" selection-start-column="11" selection-end-line="89" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://MAVEN/org.cxj:spring-redis-integration:1.0-SNAPSHOT">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>MAVEN</ID>
-          <OriginalElement>org.cxj:spring-redis-integration:1.0-SNAPSHOT</OriginalElement>
-          <nodes>
-            <node x="801.5013626834382" y="583.0">org.cxj:spring-redis-integration:1.0-SNAPSHOT</node>
-            <node x="246.8763626834382" y="504.0">org.springframework.data:spring-data-redis:jar:2.0.7.RELEASE</node>
-            <node x="82.00136268343823" y="415.0">org.springframework.data:spring-data-redis:jar:2.0.7.RELEASE/org.springframework.data:spring-data-keyvalue:jar:1.2.9.RELEASE</node>
-            <node x="93.25" y="336.0">org.springframework.data:spring-data-redis:jar:2.0.7.RELEASE/org.springframework.data:spring-data-keyvalue:jar:1.2.9.RELEASE/org.springframework.data:spring-data-commons:jar:1.13.9.RELEASE</node>
-            <node x="572.2513626834383" y="336.0">org.springframework.data:spring-data-redis:jar:2.0.7.RELEASE/org.springframework.data:spring-data-keyvalue:jar:1.2.9.RELEASE/org.springframework:spring-context:jar:5.0.6.RELEASE</node>
-            <node x="530.7836477987422" y="178.0">org.springframework.data:spring-data-redis:jar:2.0.7.RELEASE/org.springframework.data:spring-data-keyvalue:jar:1.2.9.RELEASE/org.springframework:spring-context:jar:5.0.6.RELEASE/org.springframework:spring-expression:jar:5.0.6.RELEASE</node>
-            <node x="31.12636268343823" y="257.0">org.springframework.data:spring-data-redis:jar:2.0.7.RELEASE/org.springframework.data:spring-data-keyvalue:jar:1.2.9.RELEASE/org.slf4j:jcl-over-slf4j:jar:1.7.25</node>
-            <node x="220.00136268343823" y="257.0">org.springframework.data:spring-data-redis:jar:2.0.7.RELEASE/org.springframework:spring-tx:jar:5.0.6.RELEASE</node>
-            <node x="396.7836477987422" y="178.0">org.springframework.data:spring-data-redis:jar:2.0.7.RELEASE/org.springframework:spring-tx:jar:5.0.6.RELEASE/org.springframework:spring-beans:jar:5.0.6.RELEASE</node>
-            <node x="329.0013626834383" y="257.0">org.springframework.data:spring-data-redis:jar:2.0.7.RELEASE/org.springframework:spring-oxm:jar:5.0.6.RELEASE</node>
-            <node x="710.7836477987423" y="257.0">org.springframework.data:spring-data-redis:jar:2.0.7.RELEASE/org.springframework:spring-aop:jar:5.0.6.RELEASE</node>
-            <node x="575.7513626834383" y="415.0">org.springframework.data:spring-data-redis:jar:2.0.7.RELEASE/org.springframework:spring-context-support:jar:5.0.6.RELEASE</node>
-            <node x="0.0" y="178.0">org.springframework.data:spring-data-redis:jar:2.0.7.RELEASE/org.slf4j:slf4j-api:jar:1.7.25</node>
-            <node x="889.2836477987423" y="178.0">org.springframework:spring-test:jar:5.0.6.RELEASE</node>
-            <node x="555.7938155136268" y="79.0">org.springframework:spring-test:jar:5.0.6.RELEASE/org.springframework:spring-core:jar:5.0.6.RELEASE</node>
-            <node x="562.7938155136268" y="0.0">org.springframework:spring-test:jar:5.0.6.RELEASE/org.springframework:spring-core:jar:5.0.6.RELEASE/org.springframework:spring-jcl:jar:5.0.6.RELEASE</node>
-            <node x="981.7836477987423" y="504.0">junit:junit:jar:4.12</node>
-            <node x="950.2836477987423" y="415.0">junit:junit:jar:4.12/org.hamcrest:hamcrest-core:jar:1.3</node>
-            <node x="832.7836477987423" y="504.0">redis.clients:jedis:jar:2.9.0</node>
-            <node x="796.2836477987423" y="415.0">redis.clients:jedis:jar:2.9.0/org.apache.commons:commons-pool2:jar:2.4.3</node>
-          </nodes>
-          <notes />
-          <edges>
-            <edge source="org.springframework.data:spring-data-redis:jar:2.0.7.RELEASE/org.springframework.data:spring-data-keyvalue:jar:1.2.9.RELEASE" target="org.springframework.data:spring-data-redis:jar:2.0.7.RELEASE/org.springframework:spring-tx:jar:5.0.6.RELEASE">
-              <point x="32.60000000000002" y="-14.5" />
-              <point x="196.10136268343825" y="385.0" />
-              <point x="273.75" y="385.0" />
-              <point x="273.75" y="306.0" />
-              <point x="242.25136268343823" y="306.0" />
-              <point x="-22.25" y="14.5" />
-            </edge>
-            <edge source="org.springframework.data:spring-data-redis:jar:2.0.7.RELEASE/org.springframework:spring-tx:jar:5.0.6.RELEASE" target="org.springframework.data:spring-data-redis:jar:2.0.7.RELEASE/org.springframework:spring-tx:jar:5.0.6.RELEASE/org.springframework:spring-beans:jar:5.0.6.RELEASE">
-              <point x="22.25" y="-14.5" />
-              <point x="286.75136268343823" y="227.0" />
-              <point x="406.2836477987422" y="227.0" />
-              <point x="-47.5" y="14.5" />
-            </edge>
-            <edge source="org.cxj:spring-redis-integration:1.0-SNAPSHOT" target="junit:junit:jar:4.12">
-              <point x="67.5" y="-14.5" />
-              <point x="959.0013626834382" y="558.0" />
-              <point x="1011.2836477987423" y="558.0" />
-              <point x="0.0" y="14.5" />
-            </edge>
-            <edge source="org.springframework.data:spring-data-redis:jar:2.0.7.RELEASE/org.springframework.data:spring-data-keyvalue:jar:1.2.9.RELEASE/org.springframework:spring-context:jar:5.0.6.RELEASE" target="org.springframework.data:spring-data-redis:jar:2.0.7.RELEASE/org.springframework:spring-tx:jar:5.0.6.RELEASE/org.springframework:spring-beans:jar:5.0.6.RELEASE">
-              <point x="-46.5" y="-14.5" />
-              <point x="587.7513626834383" y="316.0" />
-              <point x="503.5" y="316.0" />
-              <point x="503.5" y="237.0" />
-              <point x="482.2836477987422" y="237.0" />
-              <point x="28.5" y="14.5" />
-            </edge>
-            <edge source="org.cxj:spring-redis-integration:1.0-SNAPSHOT" target="org.springframework.data:spring-data-redis:jar:2.0.7.RELEASE">
-              <point x="-67.5" y="-14.5" />
-              <point x="824.0013626834382" y="558.0" />
-              <point x="316.8763626834382" y="558.0" />
-              <point x="0.0" y="14.5" />
-            </edge>
-            <edge source="org.springframework.data:spring-data-redis:jar:2.0.7.RELEASE/org.springframework.data:spring-data-keyvalue:jar:1.2.9.RELEASE/org.springframework.data:spring-data-commons:jar:1.13.9.RELEASE" target="org.springframework.data:spring-data-redis:jar:2.0.7.RELEASE/org.springframework.data:spring-data-keyvalue:jar:1.2.9.RELEASE/org.slf4j:jcl-over-slf4j:jar:1.7.25">
-              <point x="-63.75" y="-14.5" />
-              <point x="27.5" y="14.5" />
-            </edge>
-            <edge source="org.springframework:spring-test:jar:5.0.6.RELEASE/org.springframework:spring-core:jar:5.0.6.RELEASE" target="org.springframework:spring-test:jar:5.0.6.RELEASE/org.springframework:spring-core:jar:5.0.6.RELEASE/org.springframework:spring-jcl:jar:5.0.6.RELEASE">
-              <point x="0.0" y="-14.5" />
-              <point x="0.0" y="14.5" />
-            </edge>
-            <edge source="org.springframework.data:spring-data-redis:jar:2.0.7.RELEASE/org.springframework:spring-context-support:jar:5.0.6.RELEASE" target="org.springframework:spring-test:jar:5.0.6.RELEASE/org.springframework:spring-core:jar:5.0.6.RELEASE">
-              <point x="59.66666666666663" y="-14.5" />
-              <point x="724.9180293501049" y="395.0" />
-              <point x="845.2615303983227" y="395.0" />
-              <point x="845.2615303983227" y="138.0" />
-              <point x="642.4604821802934" y="138.0" />
-              <point x="34.66666666666663" y="14.5" />
-            </edge>
-            <edge source="org.cxj:spring-redis-integration:1.0-SNAPSHOT" target="org.springframework:spring-test:jar:5.0.6.RELEASE">
-              <point x="22.5" y="-14.5" />
-              <point x="914.0013626834382" y="558.0" />
-              <point x="939.7836477987423" y="558.0" />
-              <point x="0.0" y="14.5" />
-            </edge>
-            <edge source="org.springframework.data:spring-data-redis:jar:2.0.7.RELEASE" target="org.springframework.data:spring-data-redis:jar:2.0.7.RELEASE/org.springframework.data:spring-data-keyvalue:jar:1.2.9.RELEASE">
-              <point x="-35.0" y="-14.5" />
-              <point x="281.8763626834382" y="474.0" />
-              <point x="163.50136268343823" y="474.0" />
-              <point x="0.0" y="14.5" />
-            </edge>
-            <edge source="org.springframework.data:spring-data-redis:jar:2.0.7.RELEASE/org.springframework.data:spring-data-keyvalue:jar:1.2.9.RELEASE/org.springframework:spring-context:jar:5.0.6.RELEASE" target="org.springframework.data:spring-data-redis:jar:2.0.7.RELEASE/org.springframework.data:spring-data-keyvalue:jar:1.2.9.RELEASE/org.springframework:spring-context:jar:5.0.6.RELEASE/org.springframework:spring-expression:jar:5.0.6.RELEASE">
-              <point x="-15.5" y="-14.5" />
-              <point x="618.7513626834383" y="316.0" />
-              <point x="602.7836477987422" y="316.0" />
-              <point x="0.0" y="14.5" />
-            </edge>
-            <edge source="junit:junit:jar:4.12" target="junit:junit:jar:4.12/org.hamcrest:hamcrest-core:jar:1.3">
-              <point x="0.0" y="-14.5" />
-              <point x="0.0" y="14.5" />
-            </edge>
-            <edge source="redis.clients:jedis:jar:2.9.0" target="redis.clients:jedis:jar:2.9.0/org.apache.commons:commons-pool2:jar:2.4.3">
-              <point x="0.0" y="-14.5" />
-              <point x="0.0" y="14.5" />
-            </edge>
-            <edge source="org.cxj:spring-redis-integration:1.0-SNAPSHOT" target="redis.clients:jedis:jar:2.9.0">
-              <point x="-22.5" y="-14.5" />
-              <point x="869.0013626834382" y="558.0" />
-              <point x="862.7836477987423" y="558.0" />
-              <point x="0.0" y="14.5" />
-            </edge>
-            <edge source="org.springframework.data:spring-data-redis:jar:2.0.7.RELEASE/org.springframework:spring-oxm:jar:5.0.6.RELEASE" target="org.springframework:spring-test:jar:5.0.6.RELEASE/org.springframework:spring-core:jar:5.0.6.RELEASE">
-              <point x="-25.75" y="-14.5" />
-              <point x="354.7513626834383" y="148.0" />
-              <point x="584.6827044025157" y="148.0" />
-              <point x="-23.111111111111086" y="14.5" />
-            </edge>
-            <edge source="org.springframework.data:spring-data-redis:jar:2.0.7.RELEASE/org.springframework.data:spring-data-keyvalue:jar:1.2.9.RELEASE" target="org.springframework.data:spring-data-redis:jar:2.0.7.RELEASE/org.springframework.data:spring-data-keyvalue:jar:1.2.9.RELEASE/org.springframework:spring-context:jar:5.0.6.RELEASE">
-              <point x="65.19999999999999" y="-14.5" />
-              <point x="228.70136268343822" y="395.0" />
-              <point x="603.2513626834383" y="395.0" />
-              <point x="-31.0" y="14.5" />
-            </edge>
-            <edge source="org.springframework.data:spring-data-redis:jar:2.0.7.RELEASE" target="org.springframework.data:spring-data-redis:jar:2.0.7.RELEASE/org.springframework:spring-oxm:jar:5.0.6.RELEASE">
-              <point x="11.666666666666686" y="-14.5" />
-              <point x="328.5430293501049" y="464.0" />
-              <point x="412.0" y="464.0" />
-              <point x="412.0" y="306.0" />
-              <point x="380.5013626834383" y="306.0" />
-              <point x="0.0" y="14.5" />
-            </edge>
-            <edge source="org.springframework.data:spring-data-redis:jar:2.0.7.RELEASE/org.springframework.data:spring-data-keyvalue:jar:1.2.9.RELEASE/org.springframework.data:spring-data-commons:jar:1.13.9.RELEASE" target="org.springframework:spring-test:jar:5.0.6.RELEASE/org.springframework:spring-core:jar:5.0.6.RELEASE">
-              <point x="21.25" y="-14.5" />
-              <point x="199.5" y="316.0" />
-              <point x="168.0" y="316.0" />
-              <point x="168.0" y="128.0" />
-              <point x="561.5715932914046" y="128.0" />
-              <point x="-46.22222222222217" y="14.5" />
-            </edge>
-            <edge source="org.springframework.data:spring-data-redis:jar:2.0.7.RELEASE/org.springframework:spring-oxm:jar:5.0.6.RELEASE" target="org.springframework.data:spring-data-redis:jar:2.0.7.RELEASE/org.springframework:spring-tx:jar:5.0.6.RELEASE/org.springframework:spring-beans:jar:5.0.6.RELEASE">
-              <point x="25.75" y="-14.5" />
-              <point x="406.2513626834383" y="237.0" />
-              <point x="425.2836477987422" y="237.0" />
-              <point x="-28.5" y="14.5" />
-            </edge>
-            <edge source="org.springframework.data:spring-data-redis:jar:2.0.7.RELEASE" target="org.springframework.data:spring-data-redis:jar:2.0.7.RELEASE/org.springframework:spring-context-support:jar:5.0.6.RELEASE">
-              <point x="35.0" y="-14.5" />
-              <point x="351.8763626834382" y="474.0" />
-              <point x="665.2513626834383" y="474.0" />
-              <point x="0.0" y="14.5" />
-            </edge>
-            <edge source="org.springframework.data:spring-data-redis:jar:2.0.7.RELEASE/org.springframework.data:spring-data-keyvalue:jar:1.2.9.RELEASE/org.slf4j:jcl-over-slf4j:jar:1.7.25" target="org.springframework.data:spring-data-redis:jar:2.0.7.RELEASE/org.slf4j:slf4j-api:jar:1.7.25">
-              <point x="0.0" y="-14.5" />
-              <point x="86.12636268343823" y="237.0" />
-              <point x="51.25" y="237.0" />
-              <point x="10.25" y="14.5" />
-            </edge>
-            <edge source="org.springframework.data:spring-data-redis:jar:2.0.7.RELEASE/org.springframework.data:spring-data-keyvalue:jar:1.2.9.RELEASE/org.springframework.data:spring-data-commons:jar:1.13.9.RELEASE" target="org.springframework.data:spring-data-redis:jar:2.0.7.RELEASE/org.springframework:spring-tx:jar:5.0.6.RELEASE/org.springframework:spring-beans:jar:5.0.6.RELEASE">
-              <point x="63.75" y="-14.5" />
-              <point x="242.0" y="316.0" />
-              <point x="442.5013626834383" y="316.0" />
-              <point x="442.5013626834383" y="237.0" />
-              <point x="444.2836477987422" y="237.0" />
-              <point x="-9.5" y="14.5" />
-            </edge>
-            <edge source="org.springframework.data:spring-data-redis:jar:2.0.7.RELEASE/org.springframework.data:spring-data-keyvalue:jar:1.2.9.RELEASE/org.springframework:spring-context:jar:5.0.6.RELEASE/org.springframework:spring-expression:jar:5.0.6.RELEASE" target="org.springframework:spring-test:jar:5.0.6.RELEASE/org.springframework:spring-core:jar:5.0.6.RELEASE">
-              <point x="0.0" y="-14.5" />
-              <point x="602.7836477987422" y="158.0" />
-              <point x="607.7938155136268" y="158.0" />
-              <point x="0.0" y="14.5" />
-            </edge>
-            <edge source="org.springframework.data:spring-data-redis:jar:2.0.7.RELEASE/org.springframework:spring-aop:jar:5.0.6.RELEASE" target="org.springframework:spring-test:jar:5.0.6.RELEASE/org.springframework:spring-core:jar:5.0.6.RELEASE">
-              <point x="25.0" y="-14.5" />
-              <point x="785.7836477987423" y="148.0" />
-              <point x="630.9049266247379" y="148.0" />
-              <point x="23.111111111111086" y="14.5" />
-            </edge>
-            <edge source="org.springframework.data:spring-data-redis:jar:2.0.7.RELEASE/org.springframework.data:spring-data-keyvalue:jar:1.2.9.RELEASE" target="org.springframework.data:spring-data-redis:jar:2.0.7.RELEASE/org.slf4j:slf4j-api:jar:1.7.25">
-              <point x="-65.19999999999999" y="-14.5" />
-              <point x="98.30136268343824" y="395.0" />
-              <point x="20.62636268343823" y="395.0" />
-              <point x="20.62636268343823" y="237.0" />
-              <point x="30.75" y="237.0" />
-              <point x="-10.25" y="14.5" />
-            </edge>
-            <edge source="org.springframework.data:spring-data-redis:jar:2.0.7.RELEASE" target="org.springframework.data:spring-data-redis:jar:2.0.7.RELEASE/org.springframework:spring-aop:jar:5.0.6.RELEASE">
-              <point x="58.333333333333314" y="-14.5" />
-              <point x="375.20969601677155" y="484.0" />
-              <point x="785.7836477987423" y="484.0" />
-              <point x="25.0" y="14.5" />
-            </edge>
-            <edge source="org.springframework.data:spring-data-redis:jar:2.0.7.RELEASE" target="org.springframework.data:spring-data-redis:jar:2.0.7.RELEASE/org.slf4j:slf4j-api:jar:1.7.25">
-              <point x="-58.333333333333314" y="-14.5" />
-              <point x="258.5430293501049" y="484.0" />
-              <point x="6.736530398322827" y="484.0" />
-              <point x="6.736530398322827" y="237.0" />
-              <point x="10.25" y="237.0" />
-              <point x="-30.75" y="14.5" />
-            </edge>
-            <edge source="org.springframework.data:spring-data-redis:jar:2.0.7.RELEASE/org.springframework.data:spring-data-keyvalue:jar:1.2.9.RELEASE/org.springframework:spring-context:jar:5.0.6.RELEASE" target="org.springframework:spring-test:jar:5.0.6.RELEASE/org.springframework:spring-core:jar:5.0.6.RELEASE">
-              <point x="15.5" y="-14.5" />
-              <point x="649.7513626834383" y="306.0" />
-              <point x="685.2836477987422" y="306.0" />
-              <point x="685.2836477987422" y="158.0" />
-              <point x="619.3493710691823" y="158.0" />
-              <point x="11.555555555555543" y="14.5" />
-            </edge>
-            <edge source="org.springframework.data:spring-data-redis:jar:2.0.7.RELEASE/org.springframework:spring-context-support:jar:5.0.6.RELEASE" target="org.springframework.data:spring-data-redis:jar:2.0.7.RELEASE/org.springframework.data:spring-data-keyvalue:jar:1.2.9.RELEASE/org.springframework:spring-context:jar:5.0.6.RELEASE">
-              <point x="0.0" y="-14.5" />
-              <point x="31.0" y="14.5" />
-            </edge>
-            <edge source="org.springframework:spring-test:jar:5.0.6.RELEASE" target="org.springframework:spring-test:jar:5.0.6.RELEASE/org.springframework:spring-core:jar:5.0.6.RELEASE">
-              <point x="0.0" y="-14.5" />
-              <point x="939.7836477987423" y="128.0" />
-              <point x="654.016037735849" y="128.0" />
-              <point x="46.22222222222217" y="14.5" />
-            </edge>
-            <edge source="org.springframework.data:spring-data-redis:jar:2.0.7.RELEASE/org.springframework.data:spring-data-keyvalue:jar:1.2.9.RELEASE" target="org.springframework.data:spring-data-redis:jar:2.0.7.RELEASE/org.springframework.data:spring-data-keyvalue:jar:1.2.9.RELEASE/org.slf4j:jcl-over-slf4j:jar:1.7.25">
-              <point x="-32.599999999999966" y="-14.5" />
-              <point x="130.90136268343826" y="385.0" />
-              <point x="58.62636268343823" y="385.0" />
-              <point x="-27.5" y="14.5" />
-            </edge>
-            <edge source="org.springframework.data:spring-data-redis:jar:2.0.7.RELEASE/org.springframework.data:spring-data-keyvalue:jar:1.2.9.RELEASE/org.springframework.data:spring-data-commons:jar:1.13.9.RELEASE" target="org.springframework.data:spring-data-redis:jar:2.0.7.RELEASE/org.slf4j:slf4j-api:jar:1.7.25">
-              <point x="-21.25" y="-14.5" />
-              <point x="157.0" y="316.0" />
-              <point x="153.12636268343823" y="316.0" />
-              <point x="153.12636268343823" y="227.0" />
-              <point x="71.75" y="227.0" />
-              <point x="30.75" y="14.5" />
-            </edge>
-            <edge source="org.springframework.data:spring-data-redis:jar:2.0.7.RELEASE" target="org.springframework.data:spring-data-redis:jar:2.0.7.RELEASE/org.springframework:spring-tx:jar:5.0.6.RELEASE">
-              <point x="-11.666666666666629" y="-14.5" />
-              <point x="305.20969601677155" y="464.0" />
-              <point x="284.75" y="464.0" />
-              <point x="284.75" y="306.0" />
-              <point x="286.75136268343823" y="306.0" />
-              <point x="22.25" y="14.5" />
-            </edge>
-            <edge source="org.springframework.data:spring-data-redis:jar:2.0.7.RELEASE/org.springframework:spring-context-support:jar:5.0.6.RELEASE" target="org.springframework.data:spring-data-redis:jar:2.0.7.RELEASE/org.springframework:spring-tx:jar:5.0.6.RELEASE/org.springframework:spring-beans:jar:5.0.6.RELEASE">
-              <point x="-59.66666666666663" y="-14.5" />
-              <point x="605.5846960167717" y="385.0" />
-              <point x="459.2836477987422" y="385.0" />
-              <point x="459.2836477987422" y="237.0" />
-              <point x="463.2836477987422" y="237.0" />
-              <point x="9.5" y="14.5" />
-            </edge>
-            <edge source="org.springframework.data:spring-data-redis:jar:2.0.7.RELEASE/org.springframework:spring-tx:jar:5.0.6.RELEASE/org.springframework:spring-beans:jar:5.0.6.RELEASE" target="org.springframework:spring-test:jar:5.0.6.RELEASE/org.springframework:spring-core:jar:5.0.6.RELEASE">
-              <point x="0.0" y="-14.5" />
-              <point x="453.7836477987422" y="158.0" />
-              <point x="596.2382599580712" y="158.0" />
-              <point x="-11.555555555555543" y="14.5" />
-            </edge>
-            <edge source="org.springframework.data:spring-data-redis:jar:2.0.7.RELEASE/org.springframework:spring-tx:jar:5.0.6.RELEASE" target="org.springframework:spring-test:jar:5.0.6.RELEASE/org.springframework:spring-core:jar:5.0.6.RELEASE">
-              <point x="-22.25" y="-14.5" />
-              <point x="242.25136268343826" y="138.0" />
-              <point x="573.1271488469602" y="138.0" />
-              <point x="-34.66666666666663" y="14.5" />
-            </edge>
-            <edge source="org.springframework.data:spring-data-redis:jar:2.0.7.RELEASE/org.springframework:spring-aop:jar:5.0.6.RELEASE" target="org.springframework.data:spring-data-redis:jar:2.0.7.RELEASE/org.springframework:spring-tx:jar:5.0.6.RELEASE/org.springframework:spring-beans:jar:5.0.6.RELEASE">
-              <point x="-25.0" y="-14.5" />
-              <point x="735.7836477987423" y="227.0" />
-              <point x="501.2836477987422" y="227.0" />
-              <point x="47.5" y="14.5" />
-            </edge>
-            <edge source="org.springframework.data:spring-data-redis:jar:2.0.7.RELEASE/org.springframework.data:spring-data-keyvalue:jar:1.2.9.RELEASE" target="org.springframework.data:spring-data-redis:jar:2.0.7.RELEASE/org.springframework.data:spring-data-keyvalue:jar:1.2.9.RELEASE/org.springframework.data:spring-data-commons:jar:1.13.9.RELEASE">
-              <point x="0.0" y="-14.5" />
-              <point x="163.50136268343823" y="395.0" />
-              <point x="178.25" y="395.0" />
-              <point x="0.0" y="14.5" />
-            </edge>
-            <edge source="org.springframework.data:spring-data-redis:jar:2.0.7.RELEASE/org.springframework.data:spring-data-keyvalue:jar:1.2.9.RELEASE/org.springframework:spring-context:jar:5.0.6.RELEASE" target="org.springframework.data:spring-data-redis:jar:2.0.7.RELEASE/org.springframework:spring-aop:jar:5.0.6.RELEASE">
-              <point x="46.5" y="-14.5" />
-              <point x="680.7513626834383" y="316.0" />
-              <point x="735.7836477987423" y="316.0" />
-              <point x="-25.0" y="14.5" />
-            </edge>
-          </edges>
-          <settings layout="Hierarchic Group" zoom="0.49050632911392406" x="133.0" y="469.0" />
-          <SelectedNodes>
-            <node>org.cxj:spring-redis-integration:1.0-SNAPSHOT</node>
-          </SelectedNodes>
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>All</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dubboIntegration/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -1240,20 +790,10 @@
     <entry file="file://$PROJECT_DIR$/gitconfig/spring-cloud-api-integration/src/main/java/org/cxj/integration/api/controller/HelloController.java" />
     <entry file="file://$PROJECT_DIR$/spring-cloud-api-integration/src/main/resources/bootstrap.yml" />
     <entry file="file://$PROJECT_DIR$/gitconfig/gitconfig/api-integration-dev.properties" />
-    <entry file="file://$PROJECT_DIR$/spring-cloud-integration-config-server/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="11" lean-forward="true" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/spring-cloud-api-integration/src/main/java/org/cxj/integration/api/settings/ApiConfiguration.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="8" selection-start-line="8" selection-end-line="8" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1261,9 +801,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="630">
           <caret line="59" selection-start-line="59" selection-end-line="59" />
-          <folding>
-            <element signature="e#2089#2090#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1285,10 +822,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="8430">
           <caret line="619" selection-start-line="619" selection-end-line="619" />
-          <folding>
-            <element signature="e#11995#11996#0" expanded="true" />
-            <element signature="e#12032#12033#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1313,97 +846,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-cloud-eureka-server/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="58" selection-start-line="16" selection-start-column="58" selection-end-line="16" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-cloud-eureka-server/src/main/java/com/cxj/eureka/server/main/EurekaServerApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#362#363#0" expanded="true" />
-            <element signature="e#400#401#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-cloud-integration-config-server/src/main/java/org/cxj/cloud/integration/main/CloudIntegrationConfigServerApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="11" column="50" selection-start-line="11" selection-start-column="50" selection-end-line="11" selection-end-column="50" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#362#363#0" expanded="true" />
-            <element signature="e#443#444#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-cloud-eureka-server/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="25" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-cloud-api-integration/src/main/java/org/cxj/integration/api/main/Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#359#360#0" expanded="true" />
-            <element signature="e#420#421#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-eureka-client/1.3.6.RELEASE/spring-cloud-netflix-eureka-client-1.3.6.RELEASE.jar!/org/springframework/cloud/netflix/eureka/EurekaClientConfigBean.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="62">
-          <caret line="463" column="16" selection-start-line="463" selection-start-column="16" selection-end-line="463" selection-end-column="16" />
-          <folding>
-            <element signature="e#14957#14958#0" expanded="true" />
-            <element signature="e#15001#15002#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-cloud-api-integration/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="287">
-          <caret line="35" column="21" selection-start-line="15" selection-start-column="7" selection-end-line="35" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-cloud-api-integration/src/main/java/org/cxj/integration/api/controller/HelloController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="26" column="3" lean-forward="true" selection-start-line="26" selection-start-column="3" selection-end-line="26" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#771#772#0" expanded="true" />
-            <element signature="e#867#868#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/spring-boot-mybatis-integration/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="122">
           <caret line="9" column="60" selection-start-line="9" selection-start-column="60" selection-end-line="9" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-cloud-eureka-consumer/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="34" column="21" lean-forward="true" selection-start-line="34" selection-start-column="21" selection-end-line="34" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -1414,13 +860,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-cloud-eureka-consumer/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
     </entry>
@@ -1438,27 +877,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-cloud-api-integration/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="7" lean-forward="true" selection-start-column="7" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/spring-cloud-eureka-consumer/src/main/java/org/cxj/eureka/consumer/inter/HelloApiClient.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="8" lean-forward="true" selection-start-column="8" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-cloud-eureka-consumer/src/main/java/org/cxj/eureka/consumer/main/ConsumerApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
-          <caret line="15" column="66" selection-start-line="15" selection-start-column="66" selection-end-line="15" selection-end-column="66" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1474,6 +896,198 @@
             <element signature="e#473#474#0" expanded="true" />
             <element signature="e#525#526#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-eureka-consumer/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="25" column="21" selection-start-line="22" selection-start-column="8" selection-end-line="25" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-zuul-integration/src/main/java/org/cxj/api/gateway/controller/HelloController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/eureka/eureka-client/1.6.2/eureka-client-1.6.2.jar!/com/netflix/discovery/converters/jackson/DataCenterTypeInfoResolver.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-160">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-eureka-server/src/main/java/com/cxj/eureka/server/main/EurekaServerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+          <folding>
+            <element signature="e#445#446#0" expanded="true" />
+            <element signature="e#518#519#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-eureka-client/1.3.6.RELEASE/spring-cloud-netflix-eureka-client-1.3.6.RELEASE.jar!/org/springframework/cloud/netflix/eureka/EurekaClientConfigBean.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3665">
+          <caret line="463" column="16" selection-start-line="463" selection-start-column="16" selection-end-line="463" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/4.3.13.RELEASE/spring-core-4.3.13.RELEASE-sources.jar!/org/springframework/core/env/Environment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="83" column="50" lean-forward="true" selection-start-line="83" selection-start-column="50" selection-end-line="83" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/eureka/eureka-client/1.6.2/eureka-client-1.6.2.jar!/com/netflix/appinfo/DataCenterInfo.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="30" column="9" lean-forward="true" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/4.3.13.RELEASE/spring-core-4.3.13.RELEASE-sources.jar!/org/springframework/core/env/AbstractEnvironment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="58">
+          <caret line="120" column="5" selection-start-line="120" selection-start-column="5" selection-end-line="120" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-eureka-client/1.3.6.RELEASE/spring-cloud-netflix-eureka-client-1.3.6.RELEASE.jar!/org/springframework/cloud/netflix/eureka/EurekaInstanceConfigBean.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-156">
+          <caret line="114" column="27" selection-start-line="114" selection-start-column="27" selection-end-line="114" selection-end-column="27" />
+          <folding>
+            <element signature="e#8744#8745#0" expanded="true" />
+            <element signature="e#8796#8797#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-eureka-server/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-eureka-consumer/src/main/java/org/cxj/eureka/consumer/main/ConsumerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="24" column="17" lean-forward="true" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-eureka-consumer/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="24" lean-forward="true" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-integration-config-server/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="106" selection-start-line="13" selection-start-column="106" selection-end-line="13" selection-end-column="106" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-integration-config-server/src/main/java/org/cxj/cloud/integration/main/CloudIntegrationConfigServerApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="11" column="50" selection-start-line="11" selection-start-column="50" selection-end-line="11" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-zuul-integration/src/main/java/org/cxj/api/gateway/main/ApiGatewayApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="11" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-zuul-integration/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="21" column="26" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/marcosbarbero/cloud/spring-cloud-zuul-ratelimit-core/1.6.0.RELEASE/spring-cloud-zuul-ratelimit-core-1.6.0.RELEASE.jar!/com/marcosbarbero/cloud/autoconfigure/zuul/ratelimit/config/properties/RateLimitProperties.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-16">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+          <folding>
+            <element signature="e#2592#2593#0" expanded="true" />
+            <element signature="e#2632#2633#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-api-integration/src/main/java/org/cxj/integration/api/main/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="15" column="8" lean-forward="true" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-api-integration/src/main/java/org/cxj/integration/api/controller/HelloController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="23" column="68" selection-start-line="23" selection-start-column="68" selection-end-line="23" selection-end-column="68" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#771#772#0" expanded="true" />
+            <element signature="e#867#868#0" expanded="true" />
+            <element signature="e#1034#1035#0" expanded="true" />
+            <element signature="e#1058#1059#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-api-integration/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="262">
+          <caret line="30" column="21" selection-start-line="30" selection-start-column="21" selection-end-line="30" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-eureka-server/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="25" column="21" lean-forward="true" selection-start-line="18" selection-start-column="7" selection-end-line="25" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-api-integration/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-zuul-integration/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
     </entry>
