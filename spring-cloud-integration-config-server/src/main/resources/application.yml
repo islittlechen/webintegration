@@ -9,6 +9,6 @@ spring:
         git:
           uri: https://github.com/islittlechen/git-config-repo.git
           label: master
-          username: islittlechen@sina.cn
-          password: ilc227610
+          username: aaa
+          password: bb
           search-paths: api-integration-config,api-gateway-config,eureka-server-config,api-consumer-config
