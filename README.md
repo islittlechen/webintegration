@@ -16,3 +16,7 @@ spring-cloud-api-integration： 接口服务提供者，服务注册到eureka se
 spring-cloud-eureka-consumer： 服务消费者，eureka服务发现，实现了FeignClient，LoadBalanced集成测试。
 
 spring-cloud-zuul-integration：zuul 实现api网关功能，添加了eureka发现、服务限流功能。
+
+spring-cloud-zipkin-server: 分布式服务调用链跟踪服务端。
+
+未完待续。。。

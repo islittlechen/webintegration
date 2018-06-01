@@ -24,6 +24,7 @@
         <module>spring-cloud-eureka-server</module>
         <module>spring-cloud-eureka-consumer</module>
         <module>spring-cloud-zuul-integration</module>
+        <module>spring-cloud-zipkin-server</module>
     </modules>
 
     <properties>

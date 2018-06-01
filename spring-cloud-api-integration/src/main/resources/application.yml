@@ -1,6 +1,4 @@
 spring:
-  application:
-    name: api-integration
   cloud:
     config:
       name: api-integration
