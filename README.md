@@ -19,4 +19,6 @@ spring-cloud-zuul-integration：zuul 实现api网关功能，添加了eureka发�
 
 spring-cloud-zipkin-server: 分布式服务调用链跟踪服务端。
 
+spring-cloud-turbine: hystrix 服务性能监控。
+
 未完待续。。。
