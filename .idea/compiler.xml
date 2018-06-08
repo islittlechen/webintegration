@@ -7,8 +7,11 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="dubboIntegration" />
+        <module name="http-client-util" />
         <module name="spring-boot-mybatis-integration" />
         <module name="spring-cloud-api-integration" />
+        <module name="spring-cloud-bus-kafka" />
+        <module name="spring-cloud-bus-kafka-config-server" />
         <module name="spring-cloud-eureka-consumer" />
         <module name="spring-cloud-eureka-server" />
         <module name="spring-cloud-integration-config-server" />

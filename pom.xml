@@ -26,6 +26,9 @@
         <module>spring-cloud-zuul-integration</module>
         <module>spring-cloud-zipkin-server</module>
         <module>spring-cloud-turbine</module>
+        <module>spring-cloud-bus-kafka</module>
+        <module>http-client-util</module>
+        <module>spring-cloud-bus-kafka-config-server</module>
     </modules>
 
     <properties>

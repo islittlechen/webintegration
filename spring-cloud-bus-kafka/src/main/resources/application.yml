@@ -1,0 +1,8 @@
+
+spring:
+  cloud:
+    config:
+      name: bus-refresh
+      profile: dev
+      uri: http://localhost:8888
+      label: master

@@ -12,3 +12,4 @@ spring:
           username: aaa
           password: bb
           search-paths: api-integration-config,api-gateway-config,eureka-server-config,api-consumer-config
+
