@@ -30,6 +30,7 @@
         <module>http-client-util</module>
         <module>spring-cloud-bus-kafka-config-server</module>
         <module>my-spring-boot-module-pfile</module>
+        <module>my-spring-boot-start-by-annotation</module>
     </modules>
 
     <properties>

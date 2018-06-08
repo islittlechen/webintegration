@@ -9,6 +9,7 @@
         <module name="dubboIntegration" />
         <module name="http-client-util" />
         <module name="my-spring-boot-module-pfile" />
+        <module name="my-spring-boot-start-by-annotation" />
         <module name="spring-boot-mybatis-integration" />
         <module name="spring-cloud-api-integration" />
         <module name="spring-cloud-bus-kafka" />
