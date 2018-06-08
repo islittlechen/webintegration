@@ -1,0 +1,1 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=org.cxj.mystart.configure.ExampleAutoConfigure
