@@ -27,4 +27,6 @@ spring-cloud-bus-kafka: spring-cloud-bus-kafka-config-server 的客户端，通�
 
 http-client-util: 常用的http client 请求工具类。有java原生的URLConnector和httpclient开源组件的两种实现。
 
+my-spring-boot-start-by-annotation: 定义spring boot starter,my-spring-boot-module-pfile是一个简单实现。
+
 未完待续。。。

@@ -2,17 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8a8c27c2-2d2c-4338-9797-e6f3222436b5" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/my-spring-boot-start-by-annotation/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-spring-boot-start-by-annotation/src/main/java/org/cxj/mystart/configure/ExampleAutoConfigure.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-spring-boot-start-by-annotation/src/main/java/org/cxj/mystart/service/ExampleService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-spring-boot-start-by-annotation/src/main/java/org/cxj/mystart/service/ExampleServiceProperties.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-spring-boot-start-by-annotation/src/main/resources/META-INF/spring.factories" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-bus-kafka/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-bus-kafka/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-bus-kafka/src/main/java/org/cxj/bus/kafka/controller/BusRefreshController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-bus-kafka/src/main/java/org/cxj/bus/kafka/controller/BusRefreshController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -50,11 +41,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/my-spring-boot-start-by-annotation/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="159">
               <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="276">
+                <caret line="31" column="7" lean-forward="true" selection-start-line="31" selection-start-column="7" selection-end-line="31" selection-end-column="7" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -215,7 +218,6 @@
         <option value="$PROJECT_DIR$/spring-cloud-bus-kafka/src/main/java/org/cxj/bus/kafka/main/BusKafkaClientApplication.java" />
         <option value="$PROJECT_DIR$/spring-cloud-bus-kafka/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/spring-cloud-bus-kafka-config-server/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/my-spring-boot-module-pfile/pom.xml" />
         <option value="$PROJECT_DIR$/my-spring-boot-module-pfile/src/main/java/org/cxj/mystart/configuration/UserAutoConfiguration.java" />
@@ -228,6 +230,7 @@
         <option value="$PROJECT_DIR$/spring-cloud-bus-kafka/src/main/java/org/cxj/bus/kafka/controller/BusRefreshController.java" />
         <option value="$PROJECT_DIR$/my-spring-boot-start-by-annotation/src/main/java/org/cxj/mystart/service/ExampleServiceProperties.java" />
         <option value="$PROJECT_DIR$/my-spring-boot-start-by-annotation/pom.xml" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -275,123 +278,6 @@
               <item name="webintegration" type="b2602c69:ProjectViewProjectNode" />
               <item name="webintegration" type="462c0819:PsiDirectoryNode" />
               <item name="my-spring-boot-module-pfile" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="webintegration" type="b2602c69:ProjectViewProjectNode" />
-              <item name="webintegration" type="462c0819:PsiDirectoryNode" />
-              <item name="my-spring-boot-start-by-annotation" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="webintegration" type="b2602c69:ProjectViewProjectNode" />
-              <item name="webintegration" type="462c0819:PsiDirectoryNode" />
-              <item name="my-spring-boot-start-by-annotation" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="webintegration" type="b2602c69:ProjectViewProjectNode" />
-              <item name="webintegration" type="462c0819:PsiDirectoryNode" />
-              <item name="my-spring-boot-start-by-annotation" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="webintegration" type="b2602c69:ProjectViewProjectNode" />
-              <item name="webintegration" type="462c0819:PsiDirectoryNode" />
-              <item name="my-spring-boot-start-by-annotation" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="webintegration" type="b2602c69:ProjectViewProjectNode" />
-              <item name="webintegration" type="462c0819:PsiDirectoryNode" />
-              <item name="my-spring-boot-start-by-annotation" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="mystart" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="webintegration" type="b2602c69:ProjectViewProjectNode" />
-              <item name="webintegration" type="462c0819:PsiDirectoryNode" />
-              <item name="my-spring-boot-start-by-annotation" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="mystart" type="462c0819:PsiDirectoryNode" />
-              <item name="configure" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="webintegration" type="b2602c69:ProjectViewProjectNode" />
-              <item name="webintegration" type="462c0819:PsiDirectoryNode" />
-              <item name="my-spring-boot-start-by-annotation" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="mystart" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="webintegration" type="b2602c69:ProjectViewProjectNode" />
-              <item name="webintegration" type="462c0819:PsiDirectoryNode" />
-              <item name="my-spring-boot-start-by-annotation" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="webintegration" type="b2602c69:ProjectViewProjectNode" />
-              <item name="webintegration" type="462c0819:PsiDirectoryNode" />
-              <item name="my-spring-boot-start-by-annotation" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="META-INF" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="webintegration" type="b2602c69:ProjectViewProjectNode" />
-              <item name="webintegration" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-cloud-bus-kafka" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="webintegration" type="b2602c69:ProjectViewProjectNode" />
-              <item name="webintegration" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-cloud-bus-kafka" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="webintegration" type="b2602c69:ProjectViewProjectNode" />
-              <item name="webintegration" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-cloud-bus-kafka" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="webintegration" type="b2602c69:ProjectViewProjectNode" />
-              <item name="webintegration" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-cloud-bus-kafka" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="webintegration" type="b2602c69:ProjectViewProjectNode" />
-              <item name="webintegration" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-cloud-bus-kafka" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="kafka" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="webintegration" type="b2602c69:ProjectViewProjectNode" />
-              <item name="webintegration" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-cloud-bus-kafka" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="kafka" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="webintegration" type="b2602c69:ProjectViewProjectNode" />
@@ -759,7 +645,21 @@
       <option name="project" value="LOCAL" />
       <updated>1528449073288</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="自定义spring start 使用Conditional注解测试">
+      <created>1528451841142</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1528451841142</updated>
+    </task>
+    <task id="LOCAL-00024" summary="自定义spring start 使用Conditional注解测试">
+      <created>1528451886763</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1528451886763</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -792,10 +692,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="107816000" />
+    <option name="totallyTimeSpent" value="108021000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-34" y="23" width="1280" height="727" extended-state="0" />
+    <frame x="93" y="23" width="1280" height="727" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -903,7 +803,8 @@
     <MESSAGE value="添加 spring cloud bus refresh config 测试。" />
     <MESSAGE value="常用http client request 工具实例。" />
     <MESSAGE value="自定义spring start 测试" />
-    <option name="LAST_COMMIT_MESSAGE" value="自定义spring start 测试" />
+    <MESSAGE value="自定义spring start 使用Conditional注解测试" />
+    <option name="LAST_COMMIT_MESSAGE" value="自定义spring start 使用Conditional注解测试" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1197,16 +1098,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="217">
-            <caret line="27" column="80" selection-start-line="27" selection-start-column="80" selection-end-line="27" selection-end-column="80" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/my-spring-boot-module/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -1335,6 +1226,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="159">
           <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="276">
+            <caret line="31" column="7" lean-forward="true" selection-start-line="31" selection-start-column="7" selection-end-line="31" selection-end-column="7" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
