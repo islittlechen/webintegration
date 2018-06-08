@@ -29,6 +29,7 @@
         <module>spring-cloud-bus-kafka</module>
         <module>http-client-util</module>
         <module>spring-cloud-bus-kafka-config-server</module>
+        <module>my-spring-boot-module-pfile</module>
     </modules>
 
     <properties>
