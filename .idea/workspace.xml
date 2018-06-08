@@ -2,26 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8a8c27c2-2d2c-4338-9797-e6f3222436b5" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/http-client-util/http-client-util.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/http-client-util/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/http-client-util/src/main/java/org/cxj/http/client/util/httpclient/ClientFormLogin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/http-client-util/src/main/java/org/cxj/http/client/util/httpclient/JSONHttpClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/http-client-util/src/main/java/org/cxj/http/client/util/java/CommonHttpInvoker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/http-client-util/src/main/java/org/cxj/http/client/util/java/HttpFormConnector.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cloud-bus-kafka-config-server/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cloud-bus-kafka-config-server/src/main/java/org/cxj/bus/kafka/config/server/main/KafkaConfigServerApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cloud-bus-kafka-config-server/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cloud-bus-kafka/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cloud-bus-kafka/src/main/java/org/cxj/bus/kafka/controller/BusRefreshController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cloud-bus-kafka/src/main/java/org/cxj/bus/kafka/main/BusKafkaClientApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cloud-bus-kafka/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-integration-config-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-integration-config-server/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-integration-config-server/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-integration-config-server/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -71,18 +53,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BusKafkaClientApplication.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-cloud-bus-kafka/src/main/java/org/cxj/bus/kafka/main/BusKafkaClientApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="EurekaServerApplication.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spring-cloud-eureka-server/src/main/java/com/cxj/eureka/server/main/EurekaServerApplication.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -101,11 +71,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application.yml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spring-cloud-bus-kafka-config-server/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="77">
               <caret line="25" column="18" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="217">
+                <caret line="27" column="80" selection-start-line="27" selection-start-column="80" selection-end-line="27" selection-end-column="80" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -218,7 +200,6 @@
         <option value="$PROJECT_DIR$/spring-cloud-turbine/pom.xml" />
         <option value="$PROJECT_DIR$/spring-cloud-turbine/src/main/java/org/cxj/turbine/main/HystrixDashboardApplication.java" />
         <option value="$PROJECT_DIR$/spring-cloud-turbine/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/spring-cloud-api-integration/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/spring-cloud-integration-config-server/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/http-client-util/src/main/java/org/cxj/http/client/util/CommonHttpInvoker.java" />
@@ -235,6 +216,7 @@
         <option value="$PROJECT_DIR$/spring-cloud-bus-kafka/pom.xml" />
         <option value="$PROJECT_DIR$/spring-cloud-bus-kafka/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/spring-cloud-bus-kafka-config-server/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -277,116 +259,6 @@
             <path>
               <item name="webintegration" type="b2602c69:ProjectViewProjectNode" />
               <item name="webintegration" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="webintegration" type="b2602c69:ProjectViewProjectNode" />
-              <item name="webintegration" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-cloud-bus-kafka" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="webintegration" type="b2602c69:ProjectViewProjectNode" />
-              <item name="webintegration" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-cloud-bus-kafka" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="webintegration" type="b2602c69:ProjectViewProjectNode" />
-              <item name="webintegration" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-cloud-bus-kafka" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="webintegration" type="b2602c69:ProjectViewProjectNode" />
-              <item name="webintegration" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-cloud-bus-kafka" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="webintegration" type="b2602c69:ProjectViewProjectNode" />
-              <item name="webintegration" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-cloud-bus-kafka" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="webintegration" type="b2602c69:ProjectViewProjectNode" />
-              <item name="webintegration" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-cloud-bus-kafka" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="webintegration" type="b2602c69:ProjectViewProjectNode" />
-              <item name="webintegration" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-cloud-bus-kafka-config-server" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="webintegration" type="b2602c69:ProjectViewProjectNode" />
-              <item name="webintegration" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-cloud-bus-kafka-config-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="webintegration" type="b2602c69:ProjectViewProjectNode" />
-              <item name="webintegration" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-cloud-bus-kafka-config-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="webintegration" type="b2602c69:ProjectViewProjectNode" />
-              <item name="webintegration" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-cloud-bus-kafka-config-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="webintegration" type="b2602c69:ProjectViewProjectNode" />
-              <item name="webintegration" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-cloud-integration-config-server" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="webintegration" type="b2602c69:ProjectViewProjectNode" />
-              <item name="webintegration" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-cloud-integration-config-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="webintegration" type="b2602c69:ProjectViewProjectNode" />
-              <item name="webintegration" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-cloud-integration-config-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="webintegration" type="b2602c69:ProjectViewProjectNode" />
-              <item name="webintegration" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-cloud-integration-config-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="webintegration" type="b2602c69:ProjectViewProjectNode" />
-              <item name="webintegration" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-cloud-integration-config-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="webintegration" type="b2602c69:ProjectViewProjectNode" />
-              <item name="webintegration" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-cloud-integration-config-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="webintegration" type="b2602c69:ProjectViewProjectNode" />
@@ -580,7 +452,7 @@
       <workItem from="1527818626094" duration="3059000" />
       <workItem from="1527860889496" duration="1630000" />
       <workItem from="1528078294878" duration="3181000" />
-      <workItem from="1528437523634" duration="5497000" />
+      <workItem from="1528437523634" duration="5945000" />
     </task>
     <task id="LOCAL-00001" summary="dubbo 环境搭建测试">
       <created>1527131855874</created>
@@ -715,7 +587,21 @@
       <option name="project" value="LOCAL" />
       <updated>1527862191465</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="添加 spring cloud bus refresh config 测试。">
+      <created>1528445292941</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1528445292941</updated>
+    </task>
+    <task id="LOCAL-00021" summary="常用http client request 工具实例。">
+      <created>1528445349607</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1528445349607</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -748,14 +634,14 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="103756000" />
+    <option name="totallyTimeSpent" value="104204000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="727" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.12890625" side_tool="true" visible="true" weight="0.6967841" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.12890625" side_tool="true" visible="true" weight="0.38437977" />
       <window_info anchor="right" id="Maven Projects" order="7" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info id="Capture Tool" order="3" />
@@ -772,10 +658,10 @@
       <window_info anchor="bottom" id="Java Enterprise" order="13" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Version Control" order="11" sideWeight="0.4984127" weight="0.3284553" />
-      <window_info active="true" anchor="bottom" id="Run" order="4" sideWeight="0.87109375" visible="true" weight="0.6967841" />
+      <window_info anchor="bottom" id="Run" order="4" sideWeight="0.87109375" visible="true" weight="0.38437977" />
       <window_info anchor="bottom" id="Spring" order="0" />
       <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.5734375" weight="0.16385911" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.253125" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.253125" />
       <window_info anchor="right" id="Bean Validation" order="9" />
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Find" order="3" />
@@ -829,7 +715,9 @@
     <MESSAGE value="eureka server,producer,consumer 测试" />
     <MESSAGE value="完善README描述" />
     <MESSAGE value="添加turbine hystrix服务性能监控。" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加turbine hystrix服务性能监控。" />
+    <MESSAGE value="添加 spring cloud bus refresh config 测试。" />
+    <MESSAGE value="常用http client request 工具实例。" />
+    <option name="LAST_COMMIT_MESSAGE" value="常用http client request 工具实例。" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1022,16 +910,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
           <caret line="33" column="36" selection-start-line="33" selection-start-column="20" selection-end-line="33" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="199">
-            <caret line="18" selection-start-line="18" selection-end-line="18" />
-          </first_editor>
-          <second_editor />
         </state>
       </provider>
     </entry>
@@ -1241,6 +1119,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="77">
           <caret line="25" column="18" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="217">
+            <caret line="27" column="80" selection-start-line="27" selection-start-column="80" selection-end-line="27" selection-end-column="80" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>

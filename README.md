@@ -21,4 +21,10 @@ spring-cloud-zipkin-server: 分布式服务调用链跟踪服务端。
 
 spring-cloud-turbine: hystrix 服务性能监控。
 
+spring-cloud-bus-kafka-config-server: 使用kafka作为事件总线实现应用配置刷新的配置服务端。
+
+spring-cloud-bus-kafka: spring-cloud-bus-kafka-config-server 的客户端，通过访问服务器的bus/refresh刷新各客户端配置。
+
+http-client-util: 常用的http client 请求工具类。有java原生的URLConnector和httpclient开源组件的两种实现。
+
 未完待续。。。
